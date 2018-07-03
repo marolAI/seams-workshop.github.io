@@ -45,10 +45,9 @@ If you have a gitlab account, you can just edit in the browser.
  2. go to gitlab.com/SEAMS-workshop/seams-workshop.gitlab.io
  3. use the "fork" button (right-ish on the list of things to do)
  4. should send you to your namespaces to clone under; select the appropriate one, and a new fork of the repo should appear under that namespace.
- 6. click on the Web IDE
- 7. when viewing target, click edit button (pencil, top left of view panel)
- 8. ...make edits
- 9. scroll down to bottom of screen
+ 6. click on the (Web IDE) button (left side, after repo front matter, but before most recent commit message)
+ 8. edit the relevant files.
+ 9. when done editing, click the commit button (lower right)
  10. enter useful headline for edits
  11. if more details useful, enter them as well in big text box
  12. commit (directly to gh-pages branch)
