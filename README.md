@@ -1,9 +1,9 @@
-![Build Status](https://gitlab.com/pages/jekyll/badges/master/build.svg)
+![Build Status](https://gitlab.com/SEAMS-Workshop/seams-workshop.gitlab.io/badges/master/build.svg)
 ![Jekyll Version](https://img.shields.io/gem/v/jekyll.svg)
 
 ---
 
-Example [Jekyll] website using GitLab Pages.  View it live at https://pages.gitlab.io/jekyll
+Repository for [SEAMS](https://seams-workshop.gitlab.io/) website using GitLab Pages.
 
 [Learn more about GitLab Pages](https://pages.gitlab.io) or read the the [official GitLab Pages documentation](https://docs.gitlab.com/ce/user/project/pages/).
 
