@@ -25,6 +25,40 @@ Repository for [SEAMS](https://seams-workshop.gitlab.io/) website using GitLab P
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+# Editing
+
+To avoid blowing anything up, we're using the general following workflow:
+
+ 1. make a plan for some finite chunk of work you will do (e.g., editing some particular discussion material)
+ 1. fork the repository
+ 1. edit (again: should be small chunk of content)
+ 1. make a merge request
+ 1. maintainer will sort out any commit conflicts
+ 1. if appropriate, changes merged
+ 1. delete the fork
+ 1. return to 1.
+
+## Editing online
+
+If you have a gitlab account, you can just edit in the browser.
+
+ 2. go to gitlab.com/SEAMS-workshop/seams-workshop.gitlab.io
+ 3. use the "fork" button (top right-ish)
+ 4. ...wait til done
+ 5. looking at fork, switch to gh-pages branch if not already there (selector box for branch)
+ 6. navigate through files to target (e.g., README.md in this case)
+ 7. when viewing target, click edit button (pencil, top left of view panel)
+ 8. ...make edits
+ 9. scroll down to bottom of screen
+ 10. enter useful headline for edits
+ 11. if more details useful, enter them as well in big text box
+ 12. commit (directly to gh-pages branch)
+ 13. click pull request (button to the side of resulting view below button for code (looks like "<>"))
+ 14. select gh-pages branch in aims-ghana and your repositories, then click buttons to proceed (there are a few, with different names, but all green)
+ 15. can continue to make updates while waiting for pull to be accepted, and all will be included
+ 16. once pull accepted, trash fork
+ 17. repeat as necessary
+
 ## Getting Started
 
 You can get started with GitLab Pages using Jekyll easily by either forking this repository or by uploading a new/existing Jekyll project.
