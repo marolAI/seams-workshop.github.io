@@ -47,10 +47,10 @@ If you have a gitlab account, you can just edit in the browser.
  4. should send you to your namespaces to clone under; select the appropriate one, and a new fork of the repo should appear under that namespace.
  6. click on the (Web IDE) button (left side, after repo front matter, but before most recent commit message)
  8. edit the relevant files.
- 9. when done editing, click the commit button (lower right)
- 10. enter useful headline for edits
- 11. if more details useful, enter them as well in big text box
- 12. commit (directly to gh-pages branch)
+ 9. when done editing, click the commit button (blue, lower left; alternatively, there are context buttons on the left to switch between edit, review, and commit)
+ 10. hover over "unstaged commits" to reveal option to stage all changes (alternatively, click the check beside each file change you wish to include)
+ 11. enter useful description of edits in commit message box.  the headline / summary will be the first line (if you're overlength, the message box will highlight your excess).  subsequent lines will be the longer message text (if necessary)
+ 12. leave the `master` branch selected, then click green commit button.
  13. click pull request (button to the side of resulting view below button for code (looks like "<>"))
  14. select gh-pages branch in aims-ghana and your repositories, then click buttons to proceed (there are a few, with different names, but all green)
  15. can continue to make updates while waiting for pull to be accepted, and all will be included
