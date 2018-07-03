@@ -53,8 +53,10 @@ If you have a gitlab account, you can just edit in the browser.
  12. leave the `master` branch selected, then click green commit button.
  13. return to the repository view (top left button in the Web IDE context, next to the repo name)
  13. click the merge request button (the standard graphics for showing git branches; looks a bit like public transit routes)
- 14. should show your local repo / branch on the left, and the main repo / branch on the right
+ 14. should see option to create a new merge request - click the big green button
+ 14. should show your local repo on the left, and the main repo / branch on the right; on the left, select the branch you made edits in (should be master, unless you actively changed some settings)
  17. click "compare branches and continue"
+ 18. in the next chunk, just fill in a brief title for your collected commits, then any other detail pertinent in the larger textbox (e.g., an issue number in the format #N if you're making changes to resolve a particular issue)
 
 ## Getting Started
 
