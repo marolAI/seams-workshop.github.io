@@ -43,10 +43,9 @@ To avoid blowing anything up, we're using the general following workflow:
 If you have a gitlab account, you can just edit in the browser.
 
  2. go to gitlab.com/SEAMS-workshop/seams-workshop.gitlab.io
- 3. use the "fork" button (top right-ish)
- 4. ...wait til done
- 5. looking at fork, switch to gh-pages branch if not already there (selector box for branch)
- 6. navigate through files to target (e.g., README.md in this case)
+ 3. use the "fork" button (right-ish on the list of things to do)
+ 4. should send you to your namespaces to clone under; select the appropriate one, and a new fork of the repo should appear under that namespace.
+ 6. click on the Web IDE
  7. when viewing target, click edit button (pencil, top left of view panel)
  8. ...make edits
  9. scroll down to bottom of screen
