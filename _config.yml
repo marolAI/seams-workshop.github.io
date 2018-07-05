@@ -35,6 +35,9 @@ collections:
   practical:
     output: true
     permalink: /:collection/:slug:output_ext
+  project:
+    output: true
+    permalink: /:collection/:slug:output_ext
 
 
 defaults:
@@ -60,5 +63,11 @@ defaults:
     scope:
       path: ""
       type: practical
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: project
     values:
       layout: page
