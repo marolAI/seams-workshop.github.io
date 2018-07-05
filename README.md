@@ -43,21 +43,20 @@ To avoid blowing anything up, we're using the general following workflow:
 If you have a gitlab account, you can just edit in the browser.
 
  2. go to gitlab.com/SEAMS-workshop/seams-workshop.gitlab.io
- 3. use the "fork" button (top right-ish)
- 4. ...wait til done
- 5. looking at fork, switch to gh-pages branch if not already there (selector box for branch)
- 6. navigate through files to target (e.g., README.md in this case)
- 7. when viewing target, click edit button (pencil, top left of view panel)
- 8. ...make edits
- 9. scroll down to bottom of screen
- 10. enter useful headline for edits
- 11. if more details useful, enter them as well in big text box
- 12. commit (directly to gh-pages branch)
- 13. click pull request (button to the side of resulting view below button for code (looks like "<>"))
- 14. select gh-pages branch in aims-ghana and your repositories, then click buttons to proceed (there are a few, with different names, but all green)
- 15. can continue to make updates while waiting for pull to be accepted, and all will be included
- 16. once pull accepted, trash fork
- 17. repeat as necessary
+ 3. use the "fork" button (right-ish on the list of things to do)
+ 4. should send you to your namespaces to clone under; select the appropriate one, and a new fork of the repo should appear under that namespace.
+ 6. click on the (Web IDE) button (left side, after repo front matter, but before most recent commit message)
+ 8. edit the relevant files.
+ 9. when done editing, click the commit button (blue, lower left; alternatively, there are context buttons on the left to switch between edit, review, and commit)
+ 10. hover over "unstaged commits" to reveal option to stage all changes (alternatively, click the check beside each file change you wish to include)
+ 11. enter useful description of edits in commit message box.  the headline / summary will be the first line (if you're overlength, the message box will highlight your excess).  subsequent lines will be the longer message text (if necessary)
+ 12. leave the `master` branch selected, then click green commit button.
+ 13. return to the repository view (top left button in the Web IDE context, next to the repo name)
+ 13. click the merge request button (the standard graphics for showing git branches; looks a bit like public transit routes)
+ 14. should see option to create a new merge request - click the big green button
+ 14. should show your local repo on the left, and the main repo / branch on the right; on the left, select the branch you made edits in (should be master, unless you actively changed some settings)
+ 17. click "compare branches and continue"
+ 18. in the next chunk, just fill in a brief title for your collected commits, then any other detail pertinent in the larger textbox (e.g., an issue number in the format #N if you're making changes to resolve a particular issue)
 
 ## Getting Started
 
