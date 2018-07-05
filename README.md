@@ -30,7 +30,8 @@ Repository for [SEAMS](https://seams-workshop.gitlab.io/) website using GitLab P
 The SEAMS site content is organized into several jekyll collections:
 
  - warmups (`_warmup`): mental calisthenics.  As the name suggests, the warmup exercises for each day.  short puzzles.  code katas.  etc
- - topics (`_topic`): brief outline of a concept + reference links
+ - topics (`_topic`): brief outline of a concept + reference links.  for use outside of discussion session
+ - session (`_session`): material for discussion sessions -- anything people need to download, stuff to display, questions, etc
 
 
 # Editing

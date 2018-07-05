@@ -29,6 +29,9 @@ collections:
   topic:
     output: true
     permalink: /:collection/:slug:output_ext
+  session:
+    output: true
+    permalink: /:collection/:slug:output_ext
 
 defaults:
   -
@@ -41,5 +44,11 @@ defaults:
     scope:
       path: ""
       type: topic
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: session
     values:
       layout: page
