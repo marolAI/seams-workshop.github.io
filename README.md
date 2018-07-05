@@ -61,24 +61,16 @@ You can just edit in the browser via gitlab:
 
 ## Editing locally
 
-You can work via whatever local approach you prefer:
+You can work via whatever local tool you prefer:
 
-  2. go to gitlab.com/SEAMS-workshop/seams-workshop.gitlab.io
-  3. use the "fork" button (right-ish on the list of things to do)
-  4. should send you to your namespaces to clone under; select the appropriate one, and a new fork of the repo should appear under that namespace.
-  6. click on the (Web IDE) button (left side, after repo front matter, but before most recent commit message)
+  2. make a local clone of gitlab.com/SEAMS-workshop/seams-workshop.gitlab.io
+  3. make an editing branch `git checkout -b 'demo-local-editing'`
   8. edit the relevant files.
-  9. when done editing, click the commit button (blue, lower left; alternatively, there are context buttons on the left to switch between edit, review, and commit)
-  10. hover over "unstaged commits" to reveal option to stage all changes (alternatively, click the check beside each file change you wish to include)
-  11. enter useful description of edits in commit message box.  the headline / summary will be the first line (if you're overlength, the message box will highlight your excess).  subsequent lines will be the longer message text (if necessary)
-  12. leave the `master` branch selected, then click green commit button.
-  13. return to the repository view (top left button in the Web IDE context, next to the repo name)
-  13. click the merge request button (the standard graphics for showing git branches; looks a bit like public transit routes)
-  14. should see option to create a new merge request - click the big green button
-  14. should show your local repo on the left, and the main repo / branch on the right; on the left, select the branch you made edits in (should be master, unless you actively changed some settings)
-  17. click "compare branches and continue"
-  18. in the next chunk, just fill in a brief title for your collected commits, then any other detail pertinent in the larger textbox (e.g., an issue number in the format #N if you're making changes to resolve a particular issue)
-  19. after this, request the merge, and someone will review it in the main repository.  If you need to make more tweaks to this particular work (i.e., correcting spelling, path to some image), you can use the process above starting after the "fork" step.  As long as the merge request hasn't been completed, any additional work you do will be included.
+  9. when done editing, stage the changed files `git add file1 file2 etc`
+  10. commit the files (`git commit` either with `-m` flag or using whatever editor when the message comes up)
+  11. push your new branch: `git push --set-upstream origin whatever-you-named-the-branch`
+  13. for the merge request, you should probably use the web view (there are some CLI tools, but nothing supported directly by gitlab).  Follow the directions for editing online.
+  13. If you need to make more tweaks to this particular work (i.e., correcting spelling, path to some image), you can use the process above, but just use `git push` (instead of all the extra args) when updating the origin.  As long as the merge request hasn't been completed, any additional work you do will be included.
 
 ## Getting Started
 
