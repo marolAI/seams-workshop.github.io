@@ -68,14 +68,9 @@ You can work via whatever local tool you prefer:
   8. edit the relevant files.
   9. when done editing, stage the changed files `git add file1 file2 etc`
   10. commit the files (`git commit` either with `-m` flag or using whatever editor when the message comes up)
-  11. push your new branch:
-  13. return to the repository view (top left button in the Web IDE context, next to the repo name)
-  13. click the merge request button (the standard graphics for showing git branches; looks a bit like public transit routes)
-  14. should see option to create a new merge request - click the big green button
-  14. should show your local repo on the left, and the main repo / branch on the right; on the left, select the branch you made edits in (should be master, unless you actively changed some settings)
-  17. click "compare branches and continue"
-  18. in the next chunk, just fill in a brief title for your collected commits, then any other detail pertinent in the larger textbox (e.g., an issue number in the format #N if you're making changes to resolve a particular issue)
-  19. after this, request the merge, and someone will review it in the main repository.  If you need to make more tweaks to this particular work (i.e., correcting spelling, path to some image), you can use the process above starting after the "fork" step.  As long as the merge request hasn't been completed, any additional work you do will be included.
+  11. push your new branch: `git push --set-upstream origin whatever-you-named-the-branch`
+  13. for the merge request, you should probably use the web view (there are some CLI tools, but nothing supported directly by gitlab).  Follow the directions for editing online.
+  13. If you need to make more tweaks to this particular work (i.e., correcting spelling, path to some image), you can use the process above, but just use `git push` (instead of all the extra args) when updating the origin.  As long as the merge request hasn't been completed, any additional work you do will be included.
 
 ## Getting Started
 
