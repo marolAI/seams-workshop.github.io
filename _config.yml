@@ -32,6 +32,10 @@ collections:
   session:
     output: true
     permalink: /:collection/:slug:output_ext
+  practical:
+    output: true
+    permalink: /:collection/:slug:output_ext
+
 
 defaults:
   -
@@ -50,5 +54,11 @@ defaults:
     scope:
       path: ""
       type: session
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: practical
     values:
       layout: page
