@@ -2,7 +2,7 @@
 slug: testing
 title: Testing an Instructor
 ---
-##Warmup Exercise for Software Testing
+## Warmup Exercise for Software Testing
 
 The goal of this exercise is to successfully "program" a blindfolded person to drop a plastic bottle into a metal basket.
 
