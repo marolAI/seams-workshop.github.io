@@ -30,7 +30,7 @@ Repository for [SEAMS](https://seams-workshop.gitlab.io/) website using GitLab P
 To avoid blowing anything up, we're using the general following workflow:
 
  1. make a plan for some finite chunk of work you will do (e.g., editing some particular discussion material)
- 1. fork the repository
+ 1. fork / branch the repository, depending on permissions
  1. edit (again: should be small chunk of content)
  1. make a merge request
  1. maintainer will sort out any commit conflicts
@@ -43,21 +43,21 @@ To avoid blowing anything up, we're using the general following workflow:
 You can just edit in the browser via gitlab:
 
  2. go to gitlab.com/SEAMS-workshop/seams-workshop.gitlab.io
- 3. use the "fork" button (right-ish on the list of things to do)
- 4. should send you to your namespaces to clone under; select the appropriate one, and a new fork of the repo should appear under that namespace.
+ 3. use the "fork" button (right-ish on the list of things to do), or create a new branch (next to the repo name, the little dropdown menu with the plus, select new branch)
+ 4. if forking: should send you to your namespaces to clone under; select the appropriate one, and a new fork of the repo should appear under that namespace.
  6. click on the (Web IDE) button (left side, after repo front matter, but before most recent commit message)
  8. edit the relevant files.
  9. when done editing, click the commit button (blue, lower left; alternatively, there are context buttons on the left to switch between edit, review, and commit)
  10. hover over "unstaged commits" to reveal option to stage all changes (alternatively, click the check beside each file change you wish to include)
  11. enter useful description of edits in commit message box.  the headline / summary will be the first line (if you're overlength, the message box will highlight your excess).  subsequent lines will be the longer message text (if necessary)
- 12. leave the `master` branch selected, then click green commit button.
+ 12. leave the branch selected (`master` if you forked, or whatever you named the branch), then click green commit button.
  13. return to the repository view (top left button in the Web IDE context, next to the repo name)
  13. click the merge request button (the standard graphics for showing git branches; looks a bit like public transit routes)
  14. should see option to create a new merge request - click the big green button
- 14. should show your local repo on the left, and the main repo / branch on the right; on the left, select the branch you made edits in (should be master, unless you actively changed some settings)
+ 14. should show your local repo on the left (if forking) or new branch (if branching), and the main repo / branch on the right; on the left, select the branch you made edits in (should be master if forked, otherwise whatever you created)
  17. click "compare branches and continue"
  18. in the next chunk, just fill in a brief title for your collected commits, then any other detail pertinent in the larger textbox (e.g., an issue number in the format #N if you're making changes to resolve a particular issue)
- 19. after this, request the merge, and someone will review it in the main repository.  If you need to make more tweaks to this particular work (i.e., correcting spelling, path to some image), you can use the process above starting after the "fork" step.  As long as the merge request hasn't been completed, any additional work you do will be included.
+ 19. after this, request the merge, and someone will review it in the main repository.  If you need to make more tweaks to this particular work (i.e., correcting spelling, path to some image), you can use the process above starting after the "fork / branch" step.  As long as the merge request hasn't been completed, any additional work you do will be included.
 
 ## Editing locally
 
