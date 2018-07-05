@@ -1,5 +1,6 @@
 ---
-title: Test an Instructor
+slug: testing
+title: Testing an Instructor
 ---
 ##Warmup Exercise for Software Testing
 
@@ -26,5 +27,3 @@ Other rules:
 After a failed attempt the failing team must submit a "volunteer," and the game will run again, except with "volunteer" replacing "Nicky" in all lines above. After a successful attempt, "Nicky" above may be replaced with a willing faculty member of the winning teams choosing (which might mean Nicky again), or a volunteer from another team of the winning team's choice.  
 
 Recall that every time the game is played, Carl resets the game's parameters.
-
-

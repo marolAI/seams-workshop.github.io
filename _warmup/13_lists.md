@@ -1,5 +1,6 @@
 ---
-title: Some Lists
+slug: list
+title: List Implementations
 ---
 
 For our last warmum we would like you to implement, in order as you finish them, the following three data structures in Python:

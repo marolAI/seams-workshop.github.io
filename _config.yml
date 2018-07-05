@@ -20,3 +20,9 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 exclude: ["README.md", "run.sh"]
+
+# Collections
+collections:
+  warmup:
+    output: true
+    permalink: /:collection/:slug:output_ext

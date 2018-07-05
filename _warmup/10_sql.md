@@ -1,4 +1,5 @@
 ---
+slug: sql
 title: SQLite Practice
 ---
 
@@ -35,5 +36,3 @@ the hard drive if you want to inspect your data yourself, but that's not strictl
 options we found [for python](http://www.pythoncentral.io/series/python-sqlite-database-tutorial/) and
 [for R](http://rstudio-pubs-static.s3.amazonaws.com/8753_a57d3950027541a590c9b40a045accbf.html).  Feel free to look
 around for others.
-
-

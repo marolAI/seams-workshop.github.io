@@ -1,5 +1,6 @@
 ---
-title: Warmup
+slug: puzzling
+title: Puzzling
 ---
 
 [Stackoverflow](http://stackoverflow.com/) is a great site for finding answers to coding questions (and for asking new ones if you can't find what you seek).

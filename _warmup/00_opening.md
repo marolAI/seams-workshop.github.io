@@ -1,5 +1,5 @@
 ---
-layout: section
+slug: opening
 title: Opening Remarks
 ---
 
