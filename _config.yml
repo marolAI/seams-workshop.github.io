@@ -26,11 +26,20 @@ collections:
   warmup:
     output: true
     permalink: /:collection/:slug:output_ext
+  topic:
+    output: true
+    permalink: /:collection/:slug:output_ext
 
 defaults:
   -
     scope:
       path: ""
       type: warmup
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: topic
     values:
       layout: page
