@@ -71,6 +71,7 @@ You can work via whatever local tool you prefer:
   11. push your new branch: `git push --set-upstream origin whatever-you-named-the-branch`
   13. for the merge request, you should probably use the web view (there are some CLI tools, but nothing supported directly by gitlab).  Follow the directions for editing online.
   13. If you need to make more tweaks to this particular work (i.e., correcting spelling, path to some image), you can use the process above, but just use `git push` (instead of all the extra args) when updating the origin.  As long as the merge request hasn't been completed, any additional work you do will be included.
+  14. after your work has been accepted, development branches will be deleted in the origin repo.  To start on your next chunk of work, return to the master branch, pull (to get your updates), and then create your next working branch: `git checkout master && git pull && git checkout -b 'new-branch-name'`.  You should also delete your now-accepted old branch: `git branch -d whatever-you-named-the-branch`
 
 ## Getting Started
 
