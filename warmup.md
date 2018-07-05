@@ -3,5 +3,5 @@ layout: page
 title: Warmups
 permalink: /warmup/
 ---
-
-Warmup list
+{% for wm in site.warmup %}- [{{ wm.title }}]({{ wm.url }})
+{% endfor %}
