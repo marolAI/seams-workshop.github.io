@@ -9,5 +9,5 @@ This workshop helps participants develop their skills beyond just basic programm
 
 Applications for the 2018 workshop will open August 1.  The workshop will be held from November 26-December 7 in Muizenberg, South Africa, at the AIMS South Africa site.
 
-***SEAMS*** is made possible by a partnership between [AIMS South Africa](https://aims.ac.za/), [University of Florida](https://biology.ufl.edu/), [SACEMA](www.sacema.org), and other partners.
+***SEAMS*** is made possible by a partnership between [AIMS South Africa](https://aims.ac.za/), [University of Florida](https://biology.ufl.edu/), [SACEMA](https://www.sacema.org), and other partners.
 </div>
