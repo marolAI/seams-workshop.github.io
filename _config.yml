@@ -7,15 +7,14 @@
 
 # Site settings
 title: SEAMS Workshop
-email: your-email@domain.com
+email: seams@aims.ac.za
 description: > # this means to ignore newlines until "baseurl:"
-  The Software Engineering for Applied Mathematical Sciences (SEAMS) Workshop site.
-  The site provides workshop logistics information (application information, dates, locations, etc)
-  as well as covering the workshop material.
+  The Software Engineering for Applied Mathematical Sciences (SEAMS) Workshop site,
+  covering logistics and materials.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site
 twitter_username: SeamsWorkshop
-github_username:  jekyll
+gitlab_username:  SEAMS-Workshop
 
 # Build settings
 markdown: kramdown
