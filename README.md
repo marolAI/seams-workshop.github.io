@@ -9,6 +9,8 @@ Repository for [SEAMS](https://seams-workshop.gitlab.io/) website using GitLab P
 
 ---
 
+# TODO: figure out `doctoc`
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -27,14 +29,15 @@ Repository for [SEAMS](https://seams-workshop.gitlab.io/) website using GitLab P
 
 # Content Organization
 
-The SEAMS site content is organized into several jekyll collections:
+The SEAMS site content is organized into several `jekyll` collections:
 
  - warmups (`_warmup`): mental calisthenics.  As the name suggests, the warmup exercises for each day.  short puzzles.  code katas.  etc
  - topics (`_topic`): brief outline of a concept + reference links.  for use outside of discussion session
- - session (`_session`): material for discussion sessions -- anything people need to download, stuff to display, questions, etc
- - practical (`_practical`): toy problems to focus on particular topics - paired with the discussions to help participants focus on the particular SE concept we discussed, and prep them to apply that thinking to their project
+ - sessions (`_session`): material for discussion sessions -- anything people need to download, stuff to display, questions, etc
+ - practicals (`_practical`): toy problems to focus on particular topics - paired with the discussions to help participants focus on the particular SE concept we discussed, and prep them to apply that thinking to their project
  - project (`_project`): guided work for participants particular projects
 
+To learn more about collections, [see this](https://jekyllrb.com/docs/collections/).  The gist of our use, however, is
 
 # Editing
 
