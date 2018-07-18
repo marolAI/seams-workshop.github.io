@@ -17,10 +17,16 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    display: flex;
+    align-items: center;
 
     &,
     &:visited {
         color: $grey-color-dark;
+    }
+    svg {
+      margin-right: 2px;
+      height: 50px;
     }
 }
 
@@ -38,7 +44,7 @@
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            margin-right: 20px; // TODO, shrink + replace with '/' character?
         }
     }
 
@@ -139,6 +145,12 @@
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+.footer-logo {
+    float: left;
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {

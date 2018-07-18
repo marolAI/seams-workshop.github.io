@@ -1,0 +1,1 @@
+<div class="footer-logo">{% if (include.target contains 'svg') or (include.target contains 'html') %}{% include {{ include.target }} %}{% else -%}<img src="{{ include.target }}" alt="{{ include.alt }}" width="100%">{% endif %}</div>
