@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 public/
 Vertical_Signature_Blue.*
+rfgkey.mk
+myrfg.json

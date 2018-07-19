@@ -18,7 +18,7 @@ gitlab_username:  SEAMS-Workshop
 
 # Build settings
 markdown: kramdown
-exclude: ["README.md", "Makefile"]
+exclude: ["README.md", "Makefile", "*.json", "*.mk"]
 
 # Collections
 collections:
