@@ -29,5 +29,11 @@ myrfg.json: rfg.json | rfgkey.mk
 	## TODO stop unless RFGKEY is something?
 	sed -e 's/REPLACEME/$(RFGKEY)/g' $^ > $@
 
-faviconthing: myrfg.json
-	curl -H "Content-Type: application/json" --data @$^ $(RFG)
+favicons.zip: myrfg.json
+	curl -H "Content-Type: application/json" --data @$^ $(RFG) > tmp.json
+	grep -Eo '"package_url":.*?[^\\]",' tmp.json | sed -e 's/"package_url": "//' | sed -e 's/",//' | sed -e 's/\\//g' > tmp.url
+	cat tmp.url | xargs curl -o $@ -O
+	rm tmp.json
+	rm tmp.url
+	
+	# search temp res for favicon:package_url:"place"
