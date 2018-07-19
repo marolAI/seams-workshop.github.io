@@ -35,5 +35,7 @@ favicons.zip: myrfg.json
 	cat tmp.url | xargs curl -o $@ -O
 	rm tmp.json
 	rm tmp.url
-	
-	# search temp res for favicon:package_url:"place"
+
+_includes/html_code.html: favicons.zip
+	unzip $^
+	mv $(subst _includes/,,$@) $@
