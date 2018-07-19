@@ -3,7 +3,7 @@
 		"api_key": "REPLACEME",
 		"master_picture": {
 			"type": "url",
-			"url": "http://seams-workshop.gitlab.io/logo-SEAMS.svg"
+			"url": "http://seams-workshop.gitlab.io/logo-SEAMS.png"
 		},
 		"files_location": {
 			"type": "root"
@@ -63,11 +63,6 @@
 				},
 				"theme_color": "#4972ab"
 			},
-			"safari_pinned_tab": {
-				"picture_aspect": "no_change",
-				"threshold": 60,
-				"theme_color": "#136497"
-			},
 			"open_graph": {
 				"picture_aspect": "background_and_margin",
 				"background_color": "#ffffff",
@@ -80,7 +75,7 @@
 			"scaling_algorithm": "Mitchell",
 			"error_on_image_too_small": true,
 			"readme_file": false,
-			"html_code_file": false,
+			"html_code_file": true,
 			"use_path_as_is": false
 		},
 		"versioning": true
