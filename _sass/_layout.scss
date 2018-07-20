@@ -261,4 +261,22 @@
             font-size: 18px;
         }
     }
+        
+}
+
+.people {
+  ul { 
+    list-style: none;
+  }
+  & > ul {
+    img {
+      float: left;
+      margin: 5px;
+      border-radius: 50%;
+      height: 125px;
+    }
+    & > li {
+      clear: left;
+    }
+  }
 }
