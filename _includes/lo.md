@@ -1,0 +1,1 @@
+[{{ include.tx }}]({{ include.l }}){:target="_blank"}
