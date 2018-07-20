@@ -159,8 +159,11 @@
 
 .footer-logo {
     float: left;
-    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-    width:         calc(25% - (#{$spacing-unit} / 2));
+    width: 20%;
+    svg {
+      width:100%;
+    }
+    
 }
 
 @include media-query($on-laptop) {
