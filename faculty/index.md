@@ -7,7 +7,7 @@ permalink: /faculty/
 <div class="people">
  - ![Bubacarr Bah](bubacarr.jpg "Bubacarr Bah") Bubacarr Bah
    * [google scholar](https://scholar.google.co.za/citations?user=Y_bXZfMAAAAJ), [homepage](https://sites.google.com/aims.ac.za/bubacarr)
-   * German Research Chair of Mathematics with specialization in Data Science
+   * AIMS South Africa, German Research Chair of Mathematics with specialization in Data Science
  - ![Thomas J. Hladish](tom.jpg "Thomas J. Hladish") Thomas J. Hladish
    * [google scholar](https://scholar.google.com/citations?user=Ncv6hnMAAAAJ)
    * University of Florida, Research Assistant Scientist
