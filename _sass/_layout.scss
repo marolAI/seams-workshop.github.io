@@ -161,6 +161,7 @@
     float: left;
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
+    padding: #{$spacing-unit/4};
     svg {
       width:100%;
     }
