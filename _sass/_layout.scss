@@ -159,7 +159,8 @@
 
 .footer-logo {
     float: left;
-    width: 20%;
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
     svg {
       width:100%;
     }
