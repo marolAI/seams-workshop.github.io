@@ -13,7 +13,7 @@
         </svg>
       </a>
 
-      <div class="trigger">
+      <div class="trigger">{% if site.taking_apps %}<a class="page-link" href="{{ site.taking_apps.url }}" target="_blank">Apply Now!</a>{% endif %}
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
