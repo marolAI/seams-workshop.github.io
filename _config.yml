@@ -21,6 +21,10 @@ gitlab_username:  SEAMS-Workshop
 markdown: kramdown
 exclude: ["README.md", "Makefile", "*.json", "*.mk"]
 
+taking_apps: 
+  url: https://goo.gl/forms/nXALwJ7Fn4BUt0lR2
+  end: 'August 31st (Friday), 2018'
+
 # Collections
 collections:
   warmup:

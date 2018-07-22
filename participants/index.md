@@ -4,3 +4,5 @@ permalink: /participants/
 ---
 
 Soon: your picture, short bio, and project here!
+
+{% include applications.md %}
