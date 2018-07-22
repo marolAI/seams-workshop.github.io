@@ -1,0 +1,1 @@
+[{{ include.tx }}](http://aims-ghana.github.io/cams/{{ include.l }}){:target="_blank"}

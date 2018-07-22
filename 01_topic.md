@@ -10,7 +10,4 @@ Prospective Topic Areas for 2018:
  - IO, Big and small
  - High Performance Computing
 
-Previous Years Topics:
-
-{% for tp in site.topic %}- [{{ tp.title }}]({{ tp.url }})
-{% endfor %}
+These topics are similar to those in previous years, though we have consolidated them somewhat; while we finalize this year's materials, please feel free to {% include oldlink.md tx='peruse past topics' l='topics' %}.

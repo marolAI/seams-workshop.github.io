@@ -10,7 +10,4 @@ Prospective Practicals for 2018:
  - IO, Big and small
  - High Performance Computing
 
-Previous Years Project Work:
-
-{% for pj in site.project %}- [{{ pj.title }}]({{ pj.url }})
-{% endfor %}
+We are taking a different approach to project work preparation this year; however, last year's project work assignments still provide good perspective on what kind of tasks you might have for this workshop.  While we finalize this year's materials, please feel free to {% include oldlink.md tx='peruse past project-related tasks' l='projwork' %}.
