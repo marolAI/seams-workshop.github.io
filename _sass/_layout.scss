@@ -45,14 +45,16 @@
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 0px;
-            &::after {
-              margin-left: 5px;
-              content: "/";
-              display: inline-block;
+            @include media-larger($on-palm) {
+              &::after {
+                margin-left: 5px;
+                content: "/";
+                display: inline-block;
+              }
             }
         }
     }
-
+  
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
@@ -94,15 +96,6 @@
         .page-link {
             display: block;
             padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0px;
-                &::after {
-                  margin-left: 5px;
-                  content: "/";
-                  display: inline-block;
-                }
-            }
             margin-left: 0px;
         }
     }
