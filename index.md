@@ -9,7 +9,7 @@ This workshop helps participants develop their skills beyond just basic programm
 
 The workshop will be held from November 26-December 7, 2018 in Muizenberg, Cape Town, South Africa, at the AIMS South Africa site.
 
-For information on past workshops, please see the {% include lo.md tx='website' l='http://aims-ghana.github.io/cams/' %} for the most recent previous version of the workshop (called CAMS), held in partnership with AIMS Ghana in 2015.
+For information on past workshops, please see the {% include oldlink.md tx='website' %} for the most recent previous version of the workshop (called CAMS), held in partnership with AIMS Ghana in 2015.
 
 ***SEAMS*** is made possible by a partnership between {% include lo.md tx='AIMS South Africa' l='https://aims.ac.za/' %}, {% include lo.md tx='USAFRICOM' l='https://www.africom.mil' %}, {% include lo.md tx='University of Florida' l='https://biology.ufl.edu/' %}, {% include lo.md tx='SACEMA' l='https://www.sacema.org' %}, and other partners.
 </div>

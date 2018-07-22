@@ -16,3 +16,5 @@ A quick review of the Week 1 topics:
 Over the course of Week 1, participants will also be developing a plan to work on their personal projects.  During Week 2, they will work against that plan in a week-long hack-a-thon, culminating in demonstrating their improved project on Friday.  Each day in Week 2 will have multiple scheduled, one-on-one check-ins with faculty to discuss progress and brainstorm through any hurdles.  As needed by the participants, there may also be detailed technical tutorials run as short breakout sessions.  These will focus on specific technologies that several participants are struggling with, rather than the overarching focuses of the workshop.
 
 **Expect to work long days during Week 2!**
+
+This approach is similar to the {% include oldlink.md tx='schedule' %} we have used in past years, but we have (1) eliminated the coding review on the first day and (2) focused more on the hack-a-thon days.

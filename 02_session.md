@@ -15,7 +15,4 @@ Session focuses for 2018:
  - IO, Big and small
  - High Performance Computing
 
-Previous Years Sessions:
-
-{% for ss in site.session %}- [{{ ss.title }}]({{ ss.url }})
-{% endfor %}
+The specific sessions for each topic are similar to those in previous years, though we have consolidated them somewhat; while we finalize this year's materials, please feel free to {% include oldlink.md tx='peruse past sessions' l='sessions' %}.

@@ -10,7 +10,4 @@ Prospective Practicals for 2018:
  - IO, Big and small
  - High Performance Computing
 
-Previous Years Practicals:
-
-{% for pl in site.practical %}- [{{ pl.title }}]({{ pl.url }})
-{% endfor %}
+The practical exercises we have planned for each topic are similar to those in previous years, though we have consolidated them somewhat; while we finalize this year's materials, please feel free to {% include oldlink.md tx='peruse past practicals' l='practice/' %}.
