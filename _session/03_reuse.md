@@ -1,8 +1,11 @@
 ---
-slug: pipeline
-title: Organizing inside Your Source - Best Practices, Separation of Concerns
+slug: reuse
+title: Reuse & Reusability
 ---
 
+TBD!
+
+<!--
 ## What & Why?
 
 Some examples to look at:
@@ -127,3 +130,4 @@ in a way that minimizes how much you have to worry about at once.
 Regular refactoring: not just for optimization, but for organization.
 
 {% endcomment %}
+-->

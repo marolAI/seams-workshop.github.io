@@ -1,9 +1,11 @@
 ---
 slug: workspace
-title: Building a Stadium for Football Exercises
-instructor: carl
+title: Workspace Organization & Tools
 ---
 
+TBD!
+
+<!--
 In this practical, we will apply ideas from the morning discussing.  Particularly, we will create workspaces for the rest of the afternoon practicals ([see the full list here](practicals/)) by:
 
  0. reviewing the projects,
@@ -58,3 +60,4 @@ Version control concerns *repositories*, one for each project in version control
 Do you want other people to use what you develop?  Then you need to make it easy for them to get.  Today, that means accessible via major code-distribution sites like *CRAN*, and also able to be managed via the languages package management system.
 
 That means your work needs to have a particular structure, often a somewhat peculiar one that meets lots of confusing rules.  Templates take care of the rules for you (or at least, go a long way towards doing so), meaning you can focus on what you actually want people to get.
+-->

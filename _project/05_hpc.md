@@ -1,6 +1,6 @@
 ---
-slug: testing
-title: TDD Your Project
+slug: hpc
+title: High Performance Computing
 ---
 During this time, we will identify capabilities you will need to provide in your
 project and write tests for your *future* code.

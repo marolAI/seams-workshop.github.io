@@ -1,8 +1,11 @@
 ---
-slug: defining
-title: How to Define a Programming Project
+slug: design
+title: Project Design & Planning
 ---
 
+TBD!
+
+<!--
 ###Why do we write software?
 
 Some scenarios:
@@ -90,3 +93,4 @@ The projects:
    updates, new apps, usage changes)
 
 5. predictive elephant movement simulator
+-->
