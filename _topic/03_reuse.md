@@ -1,8 +1,11 @@
 ---
-slug: pipeline
-title: Organize Your Code
+slug: reuse
+title: Reuse & Reusability
 ---
 
+TBD!
+
+<!--
 Some useful links about organization within your code:
 
  - [Guido's Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
@@ -41,3 +44,4 @@ def circle(t, r):
     polygon(t, n, length)
 {% endhighlight %}
 > Now the number of segments is (approximately) `circumference/3`, so the length of each segment is (approximately) 3, which is small enough that the circles look good, but big enough to be efficient, and appropriate for any size circle.
+-->

@@ -1,10 +1,11 @@
 ---
 slug: workspace
-title: Organize Your Workspace
-instructor: carl
+title: Workspace Organization & Tools
 ---
 
-You have a [rough](defining-project/) [project](defining-project/session/) [definition](defining-project/project/).  Now what?
+TBD!
+
+<!--You have a [rough](defining-project/) [project](defining-project/session/) [definition](defining-project/project/).  Now what?
 
 You don't know exactly what the final product looks like, or how you are going to get there, but like every good researcher you want to *follow the scientific method*, *accomplish research effectively*, and *share that work with the community*.
 
@@ -122,4 +123,4 @@ support:
  - effective collaboration with people in different roles (*e.g.*, theoreticians, modelers, field scientists)
  - portability
  - publication (results *as well as recipe*)
- - subsequent extension
+ - subsequent extension-->

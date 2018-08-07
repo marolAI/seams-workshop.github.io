@@ -32,7 +32,7 @@ collections:
     permalink: /:collection/:slug:output_ext
   topic:
     output: true
-    permalink: /:collection/:slug:output_ext
+    permalink: /:collection/:slug/
   session:
     output: true
     permalink: /:collection/:slug:output_ext
