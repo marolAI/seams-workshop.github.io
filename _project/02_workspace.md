@@ -1,9 +1,9 @@
 ---
 slug: workspace
-title: Prepare For Your Project
-instructor: carl
+title: Workspace Organization & Tools
 ---
 
+<!--
 You should have a project, possibly as part of a team (if so, see note at end of this page), after yesterday.
 
 Now you will need to create a space for your real project.
@@ -23,3 +23,4 @@ You should feel free to ask questions of any faculty during this session, but tr
 ## TEAM NOTE{:#teamnote}
 
 If you are working as part of a team, **DO THIS ON ONE COMPUTER THEN CLONE THE WORK** to the other team members' machines.
+-->

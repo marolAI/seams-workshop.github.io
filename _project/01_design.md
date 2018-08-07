@@ -1,8 +1,11 @@
 ---
-slug: defining
-title: How to Define a Programming Project in Research
+slug: design
+title: Project Design & Planning
 ---
 
+TBD!
+
+<!--
 1. Think about the following general questions
    * Why are you interested in this topic?  Why is this topic important?  
    * What question do you plan to answer?  Do you have a hypothesis yet?
@@ -20,3 +23,4 @@ title: How to Define a Programming Project in Research
 *Students who have completed some research already should be honest about how they would do their project differently with aftersight.  He is expected to create a new proposal based on his research and open to feedback and constructive criticism.*
 
 *No coding.* Initial work should be handwritten, then typed up (plaintext) as (at most) a draft outline for some sort of publication.  Students will present their research proposals at the end of the day.
+-->

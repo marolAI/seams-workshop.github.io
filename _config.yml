@@ -29,7 +29,7 @@ taking_apps:
 collections:
   warmup:
     output: true
-    permalink: /:collection/:slug:output_ext
+    permalink: /:collection/:slug/
   topic:
     output: true
     permalink: /:collection/:slug/
@@ -38,10 +38,10 @@ collections:
     permalink: /:collection/:slug/
   practical:
     output: true
-    permalink: /:collection/:slug:output_ext
+    permalink: /:collection/:slug/
   project:
     output: true
-    permalink: /:collection/:slug:output_ext
+    permalink: /:collection/:slug/
   faculty:
     output: false
 
