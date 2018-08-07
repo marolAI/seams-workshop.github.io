@@ -1,9 +1,11 @@
 ---
 slug: workspace
-title: Organize Your (Code) Laboratory
-instructor: carl
+title: Workspace Organization & Tools
 ---
 
+TBD!
+
+<!--
 Why organize?  What's the benefit?  What's the cost?  How do you organize?
 
 ## Why Organize Your Workspace?
@@ -88,3 +90,4 @@ Re-quiz!
 >  - [R Devtools](http://r-pkgs.had.co.nz/intro.html)
 >
 > Using those template tools, create a module or package that provides a single function `hw` that, when invoked, causes "Helloworld" to printed to the screen.
+-->

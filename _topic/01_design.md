@@ -1,7 +1,6 @@
 ---
 slug: design
 title: Project Design & Planning
-permalink: /:collection/:title/
 ---
 SEAMS is about
 

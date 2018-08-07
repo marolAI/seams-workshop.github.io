@@ -1,8 +1,11 @@
 ---
 slug: defining
-title: How to Define a Programming Project in Research
+title: Project Design & Planning
 ---
 
+TBD!
+
+<!--
 ##Part 1: Research and the Research Problem
 
 What is **research**?  
@@ -94,3 +97,4 @@ As a group, answer the following questions, and present a research problem based
 - How do we represent this diffusion pattern in our code?
 - What instances to the above models behave poorly under?
 - How do we compare analytic and numerical solutions?
+-->
