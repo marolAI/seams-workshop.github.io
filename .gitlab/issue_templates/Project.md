@@ -1,0 +1,5 @@
+Prepare the project work list for XYZ topic. The target file is `_project/XX_YYYYY.md`.
+
+The project work list is whatever (1) required product and (2) assorted perspective questions you plan to provide (should be able to be displayed on screen, but not slides), plus any distributed materials (e.g., templates) ideally with source.  The goal for the participant time during these sessions is to have a relatively small amount of fixed work (i.e., that everyone does, that carries forward to other sessions, that they refer to during the hack-a-thon week) - say, no more than 30 minutes worth (of their time - this probably corresponds to something you could bang out in 5ish minutes under pressure).  The rest of the time should be a broad variety of leading questions, to get them to think about what they should be doing in the hack-a-thon week (and beyond) -- basically, to help them build a TODO list that will get TODONE.
+
+There should also be some faculty notes (e.g., what to look out for); not sure where to put these just yet, but google drive is probably fine.

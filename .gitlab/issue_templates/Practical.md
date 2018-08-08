@@ -1,0 +1,3 @@
+Prepare the practical exercise material for XYZ topic. The target file is `_practical/XX_YYYYY.md`.
+
+The exercise material is whatever directions you plan to provide (should be able to be displayed on screen, but not slides), plus any distributed materials (e.g., code snippets, data files) ideally with source (e.g., how data are generated). There should also be some faculty notes (e.g., what to look out for); not sure where to put these just yet, but google drive is probably fine.
