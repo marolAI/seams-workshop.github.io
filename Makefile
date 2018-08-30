@@ -22,10 +22,11 @@ _includes/logo-UF.svg: Vertical_Signature_Blue.pdf
 ## then put the results in the right places locally
 
 RFG := https://realfavicongenerator.net/api/favicon
+RFGKEYPATH := ~/Google\ Drive/SEAMS/rfgkey.mk
 ## TO USE THIS TARGET, MUST DEFINE THIS MAKEFILE LOCALLY, WITH RFGKEY := ... IN IT
-include rfgkey.mk
+-include $(RFGKEYPATH)
 
-myrfg.json: rfg.json | rfgkey.mk
+myrfg.json: rfg.json
 	## TODO stop unless RFGKEY is something?
 	sed -e 's/REPLACEME/$(RFGKEY)/g' $^ > $@
 
