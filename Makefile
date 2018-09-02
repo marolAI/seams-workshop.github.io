@@ -40,3 +40,21 @@ favicons.zip: myrfg.json
 _includes/html_code.html: favicons.zip
 	unzip $^
 	mv $(subst _includes/,,$@) $@
+
+.PHONY: gbranches
+
+define brancher
+git checkout -B $1-$2
+git push --set-upstream origin $1-$2
+
+endef
+
+gbranches:
+	$(foreach sess,reference practical project discussion,$(foreach top,design workspace reuse io hpc,$(call brancher,$(sess),$(top))))
+
+PROJECTAPIURL = https://gitlab.com/api/v4/projects/7337508
+
+gmrs:
+	COUNTBRANCHES=`curl --silent "${PROJECTAPIURL}/merge_requests?state=opened" --header "PRIVATE-TOKEN:${gitlabapi}" | grep -o "\"source_branch\":\"TEST\"" | wc -l`; echo $$COUNTBRANCHES
+	#COUNTBRANCHES=`echo ${LISTMR} | grep -o "\"source_branch\":\"reference-workspace\"" | wc -l`; \
+	#echo $(COUNTBRANCHES)
