@@ -54,7 +54,16 @@ gbranches:
 
 PROJECTAPIURL = https://gitlab.com/api/v4/projects/7337508
 
+define mrequestor # usage $(call mrequestor,$sess-$top,...)
+COUNTBRANCHES=`curl --silent "${PROJECTAPIURL}/merge_requests?state=opened" --header "PRIVATE-TOKEN:${gitlabapi}" | grep -o "\"source_branch\":\"$1\"" | wc -l`; if [ $$COUNTBRANCHES -eq "0" ]; then \
+	cp mergerequest.json $1.tmp; \
+	sed -e 's/REPLACEME/$1/g' $1.tmp > $1.json; \
+	rm $1.tmp; \
+	curl -X POST "${PROJECTAPIURL}/merge_requests" --header "PRIVATE-TOKEN:${gitlabapi}" --header "Content-Type: application/json" --data @$1.json; \
+fi
+# create the correct merge request json
+
+endef
+
 gmrs:
-	COUNTBRANCHES=`curl --silent "${PROJECTAPIURL}/merge_requests?state=opened" --header "PRIVATE-TOKEN:${gitlabapi}" | grep -o "\"source_branch\":\"TEST\"" | wc -l`; echo $$COUNTBRANCHES
-	#COUNTBRANCHES=`echo ${LISTMR} | grep -o "\"source_branch\":\"reference-workspace\"" | wc -l`; \
-	#echo $(COUNTBRANCHES)
+	$(foreach sess,reference practical project discussion,$(foreach top,design workspace reuse io hpc,$(call mrequestor,$(sess)-$(top))))

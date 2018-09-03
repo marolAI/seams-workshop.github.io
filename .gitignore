@@ -4,5 +4,7 @@ _site
 public/
 Vertical_Signature_Blue.*
 rfgkey.mk
-myrfg.json
+*.json
 favicons.zip
+!mergerequest.json
+!rfg.json
