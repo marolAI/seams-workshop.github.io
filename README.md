@@ -39,6 +39,50 @@ The SEAMS site content is organized into several `jekyll` collections:
 
 To learn more about collections, [see this](https://jekyllrb.com/docs/collections/).  The gist of our use, however, is
 
+# More Details on the Blocks of Content for the Course.
+
+ - Reference Material (`_topics`):
+  * meant to be read-ahead and take-away
+  * develop a reference list / reading material / etc page
+ - Sessions / Discussion (`_session`):
+  * provide the rough pitch why the participants should care about this topic / perspective, and how they should think about it
+  * visit ~10 high level concepts within that topic, and how they work together (& with other topics)
+  * plan opportunities for interactive learning on these concepts: some mini task (~1-3 minutes) in pairs, or full cohort Q&A (~5 minutes), etc
+ - Practical (`_practical`):
+  * have an on-computer exercise, working with a toy problem
+  * should build in complexity; at least 3 levels that everyone will do, with a few more for people that really get it
+  * should NOT entail a lot of keystrokes to do right; the practical time should mostly be people struggling with new concepts / approach, not rapid-fire typing
+  * will need to prep code and input in addition to directions
+ - Project:
+  * provide a list of questions / tasks to give to participants to apply to their own work
+  * these questions should also suggest how the results can be incorporated into project
+  * also need a rubric / guidance / etc for other faculty to evaluate against to help them provide feedback to participants
+
+# Some Example / Reference for Blocks of Content
+
+Project Planning & Design Session, ~10 concepts might include:
+ 1. Requirements
+ 2. Separation of Concerns / Design Patterns
+ 3. DRY vs KISS vs Too-Much-Magic
+ 4. Testing - validation vs verification vs performance (overlap w/ workspace org - having testing infrastructure),
+ 5. process / work flow maps & pseudo code => real code
+ 6. documentation (overlap w/ workspace org)
+ 7. distribution (overlap with reuse & reuseability)
+ 8. general coding best practices (conventions), etc...
+
+mini exercises: code "telephone"
+
+Project planning & design practical: toy problem to do with morse code.  tasks: figure out work flows for parse, then de-parse, then identify overlap, then propose useful separate of pieces (e.g., reference non-code file for translation map, input / output separate from core dot-dash to alphanumeric and vice versa
+
+Project planning & design applied to their project, example tasks:
+- draw the flow diagram for each of the pieces your research work associated with this project, including inputs, outputs
+- across those flows for each part, identify the "conserved" pieces
+- list the requirements for your project: what kind of inputs must be used? what sort of outputs?  what analysis rules must be met?
+- what are possible intermediate products in your work? what are the dependency relationships between those pieces?
+- what part of your project is specific?  what part is generic to similar problems?
+- what is the 1 sentence description of your project? ...the 1 paragraph? ...the 1 page?
+- who is the audience / customer for this work? how will they use the work? what context do they work in?
+
 # Editing
 
 To avoid blowing anything up, we're using the general following workflow:
