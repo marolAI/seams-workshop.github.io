@@ -12,6 +12,15 @@ SEAMS is about
 
 These interpretations can guide the way you approach a new research problem--or, put another way, they can help you with *design* and *planning* for the work that will solve that research problem.
 
+# Steps of Design in a Scientific Project
+
+Science revolves around observations, predictions, and experiments. In some cases, this might mean recording and aggregating data from the field. For other disciplines, the work might entail analyzing data from a complex mechanical setup. In traditional laboratory work, researchers keep a detailed record of experimental steps. The *process* of doing Science
+
+# Planning
+
+# References
+
+ - [Wikipedia: Software Design](https://en.wikipedia.org/wiki/Software_design); ignore the arcane vocabulary, and focus on the high level concepts 
 <!--
 We select participants already know some basics relative to these topics.  You should already know how to "code" -- *e.g.* how to declare variables and functions, read and write files, and generally arrange that syntax in a way that does useful things -- which are the bricks and mortar of Software Engineering (or wires and resistors, whatever your preferred analogy assembles into products).  Similarly, you should already know a bit about research -- *i.e.*, gathering data, formulating and testing hypotheses 
 
