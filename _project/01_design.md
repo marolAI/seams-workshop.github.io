@@ -3,7 +3,31 @@ slug: design
 title: Project Design & Planning
 ---
 
-TBD!
+1. Identify project scope:
+    * In 1-3 sentences, what is the goal/purpose of your project?
+    * Are there similar/related projects you can learn from or build on?  Do an internet search as needed.
+    * Who will interact with your software?
+    * What constraints are there on the user interface?
+2. I/O requirements:
+    * What data does your project require (inputs)?
+    * Where/how will you obtain it?
+    * What are the outputs from your project?
+    * What data/file formats will you need to work with?
+3. Divide and conquer:
+    * Identify 3-6 subproblems that your project can be divided into
+    * What is the most natural order in which to tackle the subproblems?
+        * Easist first?  Hardest?  From the interface in, or following the flow of information?
+        * Which can be implemented at the same time?  Do some absolutely have to be completed first?
+    * How will you verify that specific subproblems have been solved?
+4. Draw a flowchart of your research problem and its parts.
+5. Technical requirements:
+    * What technologies (languages/existing libraries/algorithms/etc.) will you use?
+    * What do you need to know/learn in order to complete the project?
+6. If the project is substantially completed, what things do you think should have been done differently?
+7. Presentation for today:
+    * Prepare a brief (~5 min) presentation for your classmates. Do not simply read to them your answers to the above questions.
+    * Explain what you are doing and why, how the project is structured, who the users are and what technologies it depends on.  Briefly mention similar or related projects.
+    * Use at least one visualization (e.g. your flowchart) to help explain your project.
 
 <!--
 1. Think about the following general questions
