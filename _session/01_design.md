@@ -3,7 +3,14 @@ slug: defining
 title: Project Design & Planning
 ---
 
-TBD!
+Recall: warmup for day 1 will be participants presenting their projects (1 minute each?)
+
+ - discussion about how principles of scientific process (e.g., replicability) can be integrated into design & planning of research project.  Have them list 5 single-word concepts that are important to scientific method? to transmitting scientific knowledge? leave these in place, link to 5WHs, process map steps
+ - (need a simple example problem for the next two items)
+ - Who-What-Where-When-Why+How (5WHs) / user story for software, connect to concepts
+ - how to develop process map of answering research question.  how do steps in that process map correspond to scientific principles? how do we "decorate" those steps with the appropriate checks?
+ - making a plan to convert that picture into a product - e.g., isolate big picture steps in that process map into more focused, detailed maps.  writing pseudo code.
+ - anticipating the practical has participants apply these ideas (particularly user story + process map) to their project, then re-do 1 minute presentations
 
 <!--
 ##Part 1: Research and the Research Problem
