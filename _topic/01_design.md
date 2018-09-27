@@ -10,13 +10,21 @@ SEAMS is about
  - **M***athematical*: within quantitative, rules-based representations...
  - **S***ciences*: that make testable predictions.
 
-These interpretations can guide the way you approach a new research problem--or, put another way, they can help you with *design* and *planning* for the work that will solve that research problem.
+These interpretations can guide the way you approach a new research problem--or, put another way, they can help you with *design* and *planning* for the work that will answer a research question.
 
 # Steps of Design in a Scientific Project
 
-Science revolves around observations, predictions, and experiments. In some cases, this might mean recording and aggregating data from the field. For other disciplines, the work might entail analyzing data from a complex mechanical setup. In traditional laboratory work, researchers keep a detailed record of experimental steps. The *process* of doing Science
+Science revolves around observations, predictions, and experiments. In some cases, this might mean recording and aggregating data from the field. For other disciplines, the work might entail analyzing data from a complex mechanical setup. In traditional laboratory work, researchers keep a detailed record of experimental steps and observations. These elements of the *process* of doing Science should also be present when programming for research.
+
+A deliberate approach to **Design** is one way researchers can ensure that their work meets the high standard of Science.
 
 # Planning
+
+With a project design in mind, researchers can make a plan to accomplish that work.  Important scientific work is increasingly collaborative, and modern communication technology enables those collaborations to occur across continents.  Similar technology makes unprecedented amounts of computational resources available for research.
+
+However, effective use of these advantages requires careful planning.  Software development companies will often adopt formal planning and tracking processes once they reach sufficient size and project complexity.  At SEAMS, we are not covering any of those formal processes directly, but rather focusing on the more fundamental concepts such approaches are intended to address.
+
+At its core, most effective planning is about carefully answering six questions, Who-What-When-Where-Why+How often shortened to 5WH.
 
 # References
 
