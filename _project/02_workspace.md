@@ -3,6 +3,12 @@ slug: workspace
 title: Workspace Organization & Tools
 ---
 
+ - overall: implement file system layout for project plan, with connections to data sources + sinks, repository for project, well-defined configuration points (e.g., for mac vs linux machine, on personal vs supercomputer), and README file explaining how the pieces fit together.  Participants should consider how this will work with *other* projects they will use this system for (and how those other projects might build on / work with this project)
+ - based on project process map / design plan, identify the tools users of your project need access to (e.g., Dropbox / Google Drive, support libraries, git repository), as well as the tools you need for development
+ - use that to identify configuration information
+ - figure out an approach that makes setting up this ecosystem across different platforms minimally painful
+ - organize file system + repository accordingly
+
 <!--
 You should have a project, possibly as part of a team (if so, see note at end of this page), after yesterday.
 
