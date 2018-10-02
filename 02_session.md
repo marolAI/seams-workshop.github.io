@@ -46,9 +46,6 @@ You can acess the value at a particular row and colomun with the expression exam
 'Cherries'      
 >>> exampleData[6][1]       
 'Strawberries'      
-
-
-
 ___
 
 
