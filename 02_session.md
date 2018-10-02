@@ -7,6 +7,11 @@ Week 1 Morning Discussion Sessions:
 {% for ss in site.session %}- [{{ ss.title }}]({{ ss.url | prepend: site.baseurl }})
 {% endfor %}
 
+# why participants should care about this topic and how they should think about it
+#visit 10 highlevel concerpts
+#develop a reference list
+# reading material min task lasting 1-3 minutes in pairs
+#Q&A session for 5 minutes
 Definition: CSV files are simplified spreadsheets stored as plaintext files. Python’s csv module makes it easy to parse CSV files.
 Definition: Jason is a format that stores information as JavaScript source code in plaintext files.
 Properties of CSV files:
@@ -15,7 +20,7 @@ Properties of CSV files:
 *	Don’t have multiple worksheets
 *	Can’t specify cell widths and heights
 *	Can’t have merged cells
-*	Can’t have images or charts embedded in the
+*	Can’t have images or charts embedded in them
 
 
 
