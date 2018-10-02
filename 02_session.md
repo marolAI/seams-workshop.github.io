@@ -8,6 +8,7 @@ Week 1 Morning Discussion Sessions:
 {% endfor %}
 
 # Why we should care about the topic and how we should think about it?
+* Extensively used file extension for our datasets and compatible with other database technologies like sql
 # 10 highlevel concepts
 # Reference list  
 * https://automatetheboringstuff.com
