@@ -8,10 +8,10 @@ Week 1 Morning Discussion Sessions:
 {% endfor %}
 
 # why participants should care about this topic and how they should think about it
-#visit 10 highlevel concerpts
-#develop a reference list
+# visit 10 highlevel concerpts
+# develop a reference list
 # reading material min task lasting 1-3 minutes in pairs
-#Q&A session for 5 minutes
+# Q&A session for 5 minutes
 Definition: CSV files are simplified spreadsheets stored as plaintext files. Python’s csv module makes it easy to parse CSV files.
 Definition: Jason is a format that stores information as JavaScript source code in plaintext files.
 Properties of CSV files:
