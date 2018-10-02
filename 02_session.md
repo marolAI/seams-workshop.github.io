@@ -33,6 +33,24 @@ The most direct way to access the values in the Reader object is to convert it t
 
 ___
 
+___
+You can acess the value at a particular row and colomun with the expression exampleData[row][col]  
+
+>>> exampleData[0][0]  
+'4/5/2015 13:34'  
+>>> exampleData[0][1]  
+'Apples'  
+>>> exampleData[0][2]  
+'73'  
+>>> exampleData[1][1]       
+'Cherries'      
+>>> exampleData[6][1]       
+'Strawberries'      
+
+
+
+___
+
 
 # Q & A session for 5 minutes
 ***Definition:*** ***CSV*** files are simplified spreadsheets stored as plaintext files. Python’s csv module makes it easy to parse CSV files.  
