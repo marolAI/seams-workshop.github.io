@@ -30,17 +30,17 @@ The program must do the following:
 ***Step 1: Loop Through Each CSV File***
 ---
 #! python3
-   # removeCsvHeader.py - Removes the header from all CSV files in the current
-   # working directory.
+   * removeCsvHeader.py - Removes the header from all CSV files in the current
+   * working directory.
 
    import csv, os
 
    os.makedirs('headerRemoved', exist_ok=True)
 
-   # Loop through every file in the current working directory.
-   for csvFilename in os.listdir('.'):
-       if not csvFilename.endswith('.csv'):
-❶         continue    # skip non-csv files
+   * Loop through every file in the current working directory.  
+   for csvFilename in os.listdir('.'):   
+       if not csvFilename.endswith('.csv'):   
+❶         continue    # skip non-csv files   
 
        print('Removing header from ' + csvFilename + '...')
 
@@ -54,12 +54,12 @@ The program doesn’t remove the first line from the CSV file. Rather, it create
 a new copy of the CSV file without the first line. Since the copy’s filename is 
 the same as the original filename, the copy will overwrite the original.  
 ---
-#! python3
-# removeCsvHeader.py - Removes the header from all CSV files in the current
-# working directory.
+* ! python3
+* removeCsvHeader.py - Removes the header from all CSV files in the current
+* working directory.
 
 
-# Read the CSV file in (skipping first row).  
+*cRead the CSV file in (skipping first row).  
 
 csvRows = []
 csvFileObj = open(csvFilename)
