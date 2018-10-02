@@ -27,11 +27,11 @@ Enter the following into the interactive shell, with example.csv in the current 
    ['4/6/2015 12:46', 'Pears', '14'], ['4/8/2015 8:59', 'Oranges', '52'],  
    ['4/10/2015 2:07', 'Apples', '152'], ['4/10/2015 18:10', 'Bananas', '23'],  
    ['4/10/2015 2:40', 'Strawberries', '98']] 
-   
+```   
    Notes* To read a CSV file with the csv module, first open it using the open() function ❷, just as you would any other text file. But instead of calling the read() or readlines()method on the File object that open() returns, pass it to the csv.reader() function ❸. This will return a Reader object for you to use. Note that you don’t pass a filename string directly to the csv.reader() function.  
 The most direct way to access the values in the Reader object is to convert it to a plain Python list by passing it to list() ❹. Using list() on this Reader object returns a list of lists, which you can store in a variable like exampleData. Entering exampleData in the shell displays the list of lists ❺.
 
-```
+
 
 ```
 You can acess the value at a particular row and colomun with the expression exampleData[row][col]  
