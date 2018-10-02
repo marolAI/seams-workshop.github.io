@@ -9,7 +9,8 @@ Week 1 Morning Discussion Sessions:
 
 # Why we should care about the topic and how we should think about it?
 # 10 highlevel concerpts
-# Reference list
+# Reference list  
+*https://automatetheboringstuff.com/
 # Reading material min task lasting 1-3 minutes in pairs
 # Q & A session for 5 minutes
 ***Definition:*** ***CSV*** files are simplified spreadsheets stored as plaintext files. Python’s csv module makes it easy to parse CSV files.  
