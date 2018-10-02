@@ -81,6 +81,11 @@ A Writer object lets you write data to a CSV file. To create a Writer object, yo
    >>> outputWriter.writerow([1, 2, 3.141592, 4])  
    16  
    >>> outputFile.close()  
+   Notes*First, call open() and pass it 'w' to open a file in write mode ❶.      
+   This will create the object you can then pass to csv.writer() ❷ to create a      
+   Writer object
+   
+   
 
 ```
 
