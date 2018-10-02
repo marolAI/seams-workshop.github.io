@@ -33,7 +33,7 @@ The most direct way to access the values in the Reader object is to convert it t
 
 ```
 
-___
+```
 You can acess the value at a particular row and colomun with the expression exampleData[row][col]  
 
 >>> exampleData[0][0]  
@@ -46,12 +46,14 @@ You can acess the value at a particular row and colomun with the expression exam
 'Cherries'      
 >>> exampleData[6][1]       
 'Strawberries'      
-___  
+```
+
 Reading Data from Reader Objects in a for Loop      
-For large CSV files, you’ll want to use the Reader object in a for loop.        
+For large CSV files, you’ll want to use the Reader object in a for loop. 
+```
 Example     
 
-___
+
 >>> import csv  
 >>> exampleFile = open('example.csv')  
 >>> exampleReader = csv.reader(exampleFile)  
@@ -64,7 +66,7 @@ Row #3 ['4/6/2015 12:46', 'Pears', '14']
 Row #4 ['4/8/2015 8:59', 'Oranges', '52']  
 Row #5 ['4/10/2015 2:07', 'Apples', '152']    
 Row #7 ['4/10/2015 2:40', 'Strawberries', '98']  
-___
+```
 
 
 
