@@ -7,7 +7,7 @@ Week 1 Morning Discussion Sessions:
 {% for ss in site.session %}- [{{ ss.title }}]({{ ss.url | prepend: site.baseurl }})
 {% endfor %}
 
-# Why we should care about the topic and how we should think about it
+# Why we should care about the topic and how we should think about it?
 # 10 highlevel concerpts
 # Reference list
 # Reading material min task lasting 1-3 minutes in pairs
