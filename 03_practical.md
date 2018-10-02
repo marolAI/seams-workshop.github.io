@@ -12,10 +12,10 @@ The practical exercises we have planned for each topic are similar to those in p
 * should build in complexity, at least 3 levels that everyone will do with a few more people that really get it
 * Should not entail a lot of Key strokes to do right; the practical time should be most be people struggling with new concepts/ approach not rapid fire typing
 * will need a  to prepare code and input to addition to directions
----
+
 The program will need to open every file with the .csv extension in the current working directory, read in the contents of the CSV file, and rewrite the contents without the first row to a file of the same name. This will replace the old contents of the CSV file with the new, headless contents.
-Note ***Always back up the csv files just in case you write a program which doesn’t not perfom the desired operation on your csv files.  
----
+Note Always back up the csv files just in case you write a program which doesn’t not perfom the desired operation on your csv files.  
+
 
 The program must do the following:
 *	Find all the CSV files in the current working directory.
