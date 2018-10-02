@@ -43,11 +43,11 @@ The program must do the following:
 ❶         continue    # skip non-csv files   
 
        print('Removing header from ' + csvFilename + '...')
-
+---
        # TODO: Read the CSV file in (skipping first row).
 
        # TODO: Write out the CSV file.
----
+
 
 *Step 2: Read in the CSV File*
 The program doesn’t remove the first line from the CSV file. Rather, it creates 
