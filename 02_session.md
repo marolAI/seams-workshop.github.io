@@ -17,7 +17,7 @@ Week 1 Morning Discussion Sessions:
 To read data from a CSV file with the csv module, you need to create a Readerobject. A Reader object lets you iterate over lines in the CSV file.  
 Enter the following into the interactive shell, with example.csv in the current working directory:  
 
-'''
+```
 ❶ >>> import csv  
 ❷ >>> exampleFile = open('example.csv')  
 ❸ >>> exampleReader = csv.reader(exampleFile)  
