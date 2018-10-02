@@ -8,10 +8,10 @@ Week 1 Afternoon Practicals:
 {% endfor %}
 
 The practical exercises we have planned for each topic are similar to those in previous years, though we have consolidated them somewhat; while we finalize this year's materials, please feel free to {% include oldlink.md tx='peruse past practicals' l='practice/' %}.
-# Have an on computer exercise
-# should build in complexity, at least 3 levels that everyone will do with a few more people that really get it
-# Should not entail a lot of Key strokes to do right; the practical time should be most be people struggling with new concepts/ approach not rapid fire typing
-# will need a  to prepare code and input to addition to directions
+* Have an on computer exercise
+* should build in complexity, at least 3 levels that everyone will do with a few more people that really get it
+* Should not entail a lot of Key strokes to do right; the practical time should be most be people struggling with new concepts/ approach not rapid fire typing
+* will need a  to prepare code and input to addition to directions
 ---
 The program will need to open every file with the .csv extension in the current working directory, read in the contents of the CSV file, and rewrite the contents without the first row to a file of the same name. This will replace the old contents of the CSV file with the new, headless contents.
 Note ***Always back up the csv files just in case you write a program which doesn’t not perfom the desired operation on your csv files.  
@@ -28,47 +28,3 @@ The program must do the following:
 ***For this project, open a new file editor window and save it as removeCsvHeader.py.  
 
 ***Step 1: Loop Through Each CSV File***
----
-#! python3
-   * removeCsvHeader.py - Removes the header from all CSV files in the current
-   * working directory.
-
-   import csv, os
-
-   os.makedirs('headerRemoved', exist_ok=True)
-
-   * Loop through every file in the current working directory.  
-   for csvFilename in os.listdir('.'):   
-       if not csvFilename.endswith('.csv'):   
-❶         continue    # skip non-csv files   
-
-       print('Removing header from ' + csvFilename + '...')
----
-       # TODO: Read the CSV file in (skipping first row).
-
-       # TODO: Write out the CSV file.
-
-
-*Step 2: Read in the CSV File*
-The program doesn’t remove the first line from the CSV file. Rather, it creates 
-a new copy of the CSV file without the first line. Since the copy’s filename is 
-the same as the original filename, the copy will overwrite the original.  
----
-* ! python3
-* removeCsvHeader.py - Removes the header from all CSV files in the current
-* working directory.
-
-
-*cRead the CSV file in (skipping first row).  
-
-csvRows = []
-csvFileObj = open(csvFilename)
-readerObj = csv.reader(csvFileObj)
-for row in readerObj:
-    if readerObj.line_num == 1:
-        continue    # skip first row
-    csvRows.append(row)
-csvFileObj.close()
-
----
-Add the following to removeCsvHeader.py.
