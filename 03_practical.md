@@ -24,7 +24,7 @@ The program must do the following:
 *	At the code level, this means the program will need to do the following:
 *	Loop over a list of files from os.listdir(), skipping the non-CSV files.
 *	Create a CSV Reader object and read in the contents of the file, using the line_num attribute to figure out which line to skip.
-*	Create a CSV Writer object and write out the read-in data to the new file.
+*	Create a CSV Writer object and write out the read-in data to the new file.  
 ***For this project, open a new file editor window and save it as removeCsvHeader.py.  
 
 ***Step 1: Loop Through Each CSV File***
