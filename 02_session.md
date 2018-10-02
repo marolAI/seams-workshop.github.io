@@ -10,12 +10,12 @@ Week 1 Morning Discussion Sessions:
 Definition: CSV files are simplified spreadsheets stored as plaintext files. Python’s csv module makes it easy to parse CSV files.
 Definition: Jason is a format that stores information as JavaScript source code in plaintext files.
 Properties of CSV files:
-•	Don’t have types for their values—everything is a string
-•	Don’t have settings for font size or color
-•	Don’t have multiple worksheets
-•	Can’t specify cell widths and heights
-•	Can’t have merged cells
-•	Can’t have images or charts embedded in the
+*	Don’t have types for their values—everything is a string
+*	Don’t have settings for font size or color
+*	Don’t have multiple worksheets
+*	Can’t specify cell widths and heights
+*	Can’t have merged cells
+*	Can’t have images or charts embedded in the
 
 
 
