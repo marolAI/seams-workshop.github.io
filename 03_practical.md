@@ -49,7 +49,35 @@ The program must do the following:
        # TODO: Write out the CSV file.
 
 ```
-***Step 2: Read in the CSV File***  
+***Step 2: Read in the CSV File***
+The program doesn’t remove the first line from the CSV file. Rather, it creates a new copy of the CSV file without the first line. Since the copy’s filename is the same as the original filename, the copy will overwrite the original.  
+
+Add the following to removeCsvHeader.py.
+
+```
+#! python3
+# removeCsvHeader.py - Removes the header from all CSV files in the current
+# working directory.
+
+
+# Read the CSV file in (skipping first row).
+csvRows = []
+csvFileObj = open(csvFilename)
+readerObj = csv.reader(csvFileObj)
+for row in readerObj:
+    if readerObj.line_num == 1:
+        continue    # skip first row
+    csvRows.append(row)
+csvFileObj.close()
+
+
+```
+
+
+
+
+
+***Step 3: Read in the CSV File***  
 Now that csvRows contains all rows but the first row, the list needs to be written out to a CSV file in the headerRemoved folder.  
 Add the following to removeCsvHeader.py:
 ```
