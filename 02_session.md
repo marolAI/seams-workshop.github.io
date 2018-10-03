@@ -107,6 +107,15 @@ Properties of CSV files:
 Python’s json module handles all the details of translating between a string with JSON data and Python values for the json.loads() and json.dumps() functions. 
 To translate a string containing JSON data into a Python value, pass it to the json.loads() function.  
 Enter the following into the interactive shell:
+```
+>>> stringOfJsonData = '{"name": "Zophie", "isCat": true, "miceCaught": 0,
+"felineIQ": null}'
+>>> import json
+>>> jsonDataAsPythonValue = json.loads(stringOfJsonData)
+>>> jsonDataAsPythonValue
+{'isCat': True, 'miceCaught': 0, 'name': 'Zophie', 'felineIQ': None}
+
+```
 
 
 
