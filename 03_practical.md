@@ -28,3 +28,24 @@ The program must do the following:
 ***For this project, open a new file editor window and save it as removeCsvHeader.py.  
 
 ***Step 1: Loop Through Each CSV File***
+```
+#! python3
+   # removeCsvHeader.py - Removes the header from all CSV files in the current
+   # working directory.
+
+   import csv, os
+
+   os.makedirs('headerRemoved', exist_ok=True)
+
+   # Loop through every file in the current working directory.
+   for csvFilename in os.listdir('.'):
+       if not csvFilename.endswith('.csv'):
+❶         continue    # skip non-csv files
+
+       print('Removing header from ' + csvFilename + '...')
+
+       # TODO: Read the CSV file in (skipping first row).
+
+       # TODO: Write out the CSV file.
+
+```
