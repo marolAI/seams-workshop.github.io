@@ -103,6 +103,28 @@ Add the following to removeCsvHeader.py:
        csvFileObj.close()
 
 ```
+# Practical 2 Fetching Current Weather Data  
+
+***Step 1: Get Location from the Command Line Argument***
+
+The input for this program will come from the command line.   
+Make quickWeather.py look like this:
+```
+#! python3
+# quickWeather.py - Prints the weather for a location from the command line.
+
+import json, requests, sys
+# Compute location from command line arguments.
+if len(sys.argv) < 2:
+    print('Usage: quickWeather.py location')
+    sys.exit()
+location = ' '.join(sys.argv[1:])
+
+
+```
+***Step 2: Download the JSON Data***  
+OpenWeatherMap.org provides real-time weather information in JSON format.   Your program simply has to download the page at http://api.openweathermap.org/data/2.5/forecast/daily?q=<Location>&cnt=3, where <Location> is the name of the city whose weather you want.   
+Add the following to quickWeather.py.
 
 ***Ideas for Similar Programs:***
 *	Combine multiple csv files with the same columns and column headings into one csv file.
