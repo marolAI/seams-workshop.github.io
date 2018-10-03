@@ -83,7 +83,8 @@ Row #7 ['4/10/2015 2:40', 'Strawberries', '98']
 ```
 
 ***Writer Objects***  
-A Writer object lets you write data to a CSV file. To create a Writer object, you use the csv.writer() function. Enter the following into the interactive shell:
+A Writer object lets you write data to a CSV file. To create a Writer object, you use the csv.writer() function.  
+Enter the following into the interactive shell:
 ```
 >>> import csv  
 ❶ >>> outputFile = open('output.csv', 'w', newline='')  
