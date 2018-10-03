@@ -14,6 +14,18 @@ Week 1 Morning Discussion Sessions:
 * https://automatetheboringstuff.com
 # Reading material min task lasting 1-3 minutes in pairs
 
+
+# Q & A session for 5 minutes
+***Definition:*** ***CSV*** files are simplified spreadsheets stored as plaintext files. Python’s csv module makes it easy to parse CSV files.  
+***Definition:*** ***Jason*** is a format that stores information as JavaScript source code in plaintext files.  
+Properties of CSV files:
+*	Don’t have types for their values—everything is a string
+*	Don’t have settings for font size or color
+*	Don’t have multiple worksheets
+*	Can’t specify cell widths and heights
+*	Can’t have merged cells
+*	Can’t have images or charts embedded in them
+
 ##  Part 1 <center>Working with CSV Files</center>
 **Reader Objects***
 To read data from a CSV file with the csv module, you need to create a Readerobject. A Reader object lets you iterate over lines in the CSV file.  
@@ -92,16 +104,6 @@ __
 __
 
 
-# Q & A session for 5 minutes
-***Definition:*** ***CSV*** files are simplified spreadsheets stored as plaintext files. Python’s csv module makes it easy to parse CSV files.  
-***Definition:*** ***Jason*** is a format that stores information as JavaScript source code in plaintext files.  
-Properties of CSV files:
-*	Don’t have types for their values—everything is a string
-*	Don’t have settings for font size or color
-*	Don’t have multiple worksheets
-*	Can’t specify cell widths and heights
-*	Can’t have merged cells
-*	Can’t have images or charts embedded in them
 
 ##  Part 2 <center>Working with Jason Data</center>
 Python’s json module handles all the details of translating between a string with JSON data and Python values for the json.loads() and json.dumps() functions. 
