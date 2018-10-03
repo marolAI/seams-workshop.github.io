@@ -121,6 +121,14 @@ After you import the json module, you can call loads() and pass it a string of J
 ***Writing JSON with the dumps() Function***   
 The json.dumps() function (which means “dump string,” not “dumps”) will translate a Python value into a string of JSON-formatted data. Enter the following into the interactive shell:
 
+```
+>>> pythonValue = {'isCat': True, 'miceCaught': 0, 'name': 'Zophie',
+'felineIQ': None}
+>>> import json
+>>> stringOfJsonData = json.dumps(pythonValue)
+>>> stringOfJsonData
+'{"isCat": true, "felineIQ": null, "miceCaught": 0, "name": "Zophie" }'
 
+```
 
 The specific sessions for each topic are similar to those in previous years, though we have consolidated them somewhat; while we finalize this year's materials, please feel free to {% include oldlink.md tx='peruse past sessions' l='sessions' %}.
