@@ -50,7 +50,8 @@ The program must do the following:
 
 ```
 ***Step 2: Read in the CSV File***
-Now that csvRows contains all rows but the first row, the list needs to be written out to a CSV file in the headerRemoved folder.   Add the following to removeCsvHeader.py:
+Now that csvRows contains all rows but the first row, the list needs to be written out to a CSV file in the headerRemoved folder.  
+Add the following to removeCsvHeader.py:
 ```
   #! python3
    # removeCsvHeader.py - Removes the header from all CSV files in the current
