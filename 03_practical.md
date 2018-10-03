@@ -49,7 +49,7 @@ The program must do the following:
        # TODO: Write out the CSV file.
 
 ```
-***Step 2: Read in the CSV File***
+***Step 2: Read in the CSV File***  
 The program doesn’t remove the first line from the CSV file. Rather, it creates a new copy of the CSV file without the first line. Since the copy’s filename is the same as the original filename, the copy will overwrite the original.  
 
 Add the following to removeCsvHeader.py.
