@@ -103,7 +103,7 @@ Add the following to removeCsvHeader.py:
 
 ```
 
-Ideas for Similar Programs:
+***Ideas for Similar Programs:***
 *	Combine multiple csv files with the same columns and column headings into one csv file.
 *	Check for invalid data or formatting mistakes in CSV files and alert the user to these errors.
 *	Copy specific data from a CSV file to an Excel file, or vice versa.
