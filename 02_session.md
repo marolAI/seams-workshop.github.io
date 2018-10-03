@@ -116,8 +116,10 @@ Enter the following into the interactive shell:
 {'isCat': True, 'miceCaught': 0, 'name': 'Zophie', 'felineIQ': None}
 
 ```
+After you import the json module, you can call loads() and pass it a string of JSON data. Note that JSON strings always use double quotes. It will return that data as a Python dictionary.
 
-
+***Writing JSON with the dumps() Function***   
+The json.dumps() function (which means “dump string,” not “dumps”) will translate a Python value into a string of JSON-formatted data. Enter the following into the interactive shell:
 
 
 
