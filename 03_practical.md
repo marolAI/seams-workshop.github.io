@@ -125,6 +125,79 @@ location = ' '.join(sys.argv[1:])
 ***Step 2: Download the JSON Data***  
 OpenWeatherMap.org provides real-time weather information in JSON format.   Your program simply has to download the page at [http://api.openweathermap.org/data/2.5/forecast/daily?q=<Location>&cnt=3], where // Location is the name of the city whose weather you want.   
 Add the following to quickWeather.py.
+```
+#! python3
+# quickWeather.py - Prints the weather for a location from the command line.
+
+# Download the JSON data from OpenWeatherMap.org's API.
+url ='http://api.openweathermap.org/data/2.5/forecast/daily?q=%s&cnt=3' % (location)
+response = requests.get(url)
+response.raise_for_status()
+```
+Step 3: Load JSON Data and Print Weather  
+Jason Data will look like this:  
+```
+{'city': {'coord': {'lat': 37.7771, 'lon': -122.42},
+          'country': 'United States of America',
+          'id': '5391959',
+          'name': 'San Francisco',
+          'population': 0},
+'cnt': 3,
+'cod': '200',
+'list': [{'clouds': 0,
+          'deg': 233,
+          'dt': 1402344000,
+          'humidity': 58,
+          'pressure': 1012.23,
+          'speed': 1.96,
+          'temp': {'day': 302.29,
+                   'eve': 296.46,
+                   'max': 302.29,
+                   'min': 289.77,
+                   'morn': 294.59,
+                   'night': 289.77},
+          'weather': [{'description': 'sky is clear',
+                       'icon': '01d',
+
+```
+
+
+The weather descriptions you want are after 'main' and 'description'. To neatly print them out,   
+add the following to quickWeather.py.
+```
+! python3
+   # quickWeather.py - Prints the weather for a location from the command line.
+
+
+   # Load JSON data into a Python variable.
+   weatherData = json.loads(response.text)
+   # Print weather descriptions.
+❶ w = weatherData['list']
+   print('Current weather in %s:' % (location))
+   print(w[0]['weather'][0]['main'], '-', w[0]['weather'][0]['description'])
+   print()
+   print('Tomorrow:')
+   print(w[1]['weather'][0]['main'], '-', w[1]['weather'][0]['description'])
+   print()
+   print('Day after tomorrow:')
+   print(w[2]['weather'][0]['main'], '-', w[2]['weather'][0]['description'])
+```
+Notice how the code stores weatherData['list'] in the variable w to save you some typing ❶. You use w[0], w[1], and w[2] to retrieve the dictionaries for today, tomorrow, and the day after tomorrow’s weather, respectively. Each of these dictionaries has a 'weather' key, which contains a list value. You’re interested in the first list item, a nested dictionary with several more keys, at index 0. Here, we print the values stored in the 'main' and 'description' keys, separated by a hyphen.  
+When this program is run with the command line argument quickWeather.py San Francisco, CA, the output looks something like this:  
+
+```
+Current weather in San Francisco, CA:
+Clear - sky is clear
+
+Tomorrow:
+Clouds - few clouds
+
+Day after tomorrow:
+Clear - sky is clear
+
+```
+
+
 
 ***Ideas for Similar Programs:***
 *	Combine multiple csv files with the same columns and column headings into one csv file.
