@@ -49,7 +49,7 @@ The program must do the following:
        # TODO: Write out the CSV file.
 
 ```
-***Step 2: Read in the CSV File***
+***Step 2: Read in the CSV File***  
 Now that csvRows contains all rows but the first row, the list needs to be written out to a CSV file in the headerRemoved folder.  
 Add the following to removeCsvHeader.py:
 ```
