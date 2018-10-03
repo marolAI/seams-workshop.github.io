@@ -123,7 +123,7 @@ location = ' '.join(sys.argv[1:])
 
 ```
 ***Step 2: Download the JSON Data***  
-OpenWeatherMap.org provides real-time weather information in JSON format.   Your program simply has to download the page at http://api.openweathermap.org/data/2.5/forecast/daily?q=<Location>&cnt=3, where // <Location> is the name of the city whose weather you want.   
+OpenWeatherMap.org provides real-time weather information in JSON format.   Your program simply has to download the page at http://api.openweathermap.org/data/2.5/forecast/daily?q=<Location>&cnt=3, where ***Location*** is the name of the city whose weather you want.   
 Add the following to quickWeather.py.
 
 ***Ideas for Similar Programs:***
