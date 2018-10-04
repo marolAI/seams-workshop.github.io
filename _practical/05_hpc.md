@@ -3,7 +3,18 @@ slug: hpc
 title: High Performance Computing
 ---
 
-__Objectives__
+## Recap:
+
+In the discussion session, we covered the following ideas:
+
+- how does the HPC computing model differ from computing on your local machine?  
+- what do those differences mean for how you arrange your program?
+- the IO choices you make
+- the different categories HPC infrastructures: clusters, and clouds 
+- jargon / terminology: multi-cores, GPUs, cloud computing, MPI, etc
+- HPC programming languages: CUDAC, Fortran, etc
+
+## Objectives
 
 By the end of this session participants shall be able to:
 
@@ -15,29 +26,19 @@ By the end of this session participants shall be able to:
 - do code testings and prototyping 
 - demonstrate knowledge of hpc service providers
 
----
-
-__Activities__
+## Activities
 
 The activities to be undertaken during this practical session shall include the following.
 
-- participants will be given serial codes and be asked to identified parallelizable parts of the code
-- a runtime comparison of a serial code and its parallelized version
-- a runtime comparison of multiple cores without GPUs and multi-cores with GPUs in Colab
-- a demonstration of code testing / prototyping on a local machine / an interactive node
-- a demonstration of job submission, qeueing, and management on CHPC
-- participants experiment with other services providers like EC2, Azure, NVIDIA, AWS, etc
-- participants experiment with HPC software like hadoop, mapreduce, and tensorflow
+- participants will be given serial codes and be asked to identified parallelizable parts of the code (maybe as pseudocode?)
+- a demonstration of job submission, queuing, and management on CHPC
+- a runtime comparison of a serial code and its parallelized version (pre written simple-ish code in multiple languages, with a timing checkpoints in place, comments indicating rough "change here")
+- a demonstration of code testing / prototyping on a local machine / an interactive node (pre-written that works on local machine, but not when multi-thread or hpc / multinode setting?  suggests a race-condition error, thread locking, or IO collision error)
+- a runtime comparison of multiple cores without GPUs and multi-cores with GPUs in Colab (can find an online tutorial? re-purpose a bit for us?)
+- participants experiment with HPC software like tensorflow, hadoop, and mapreduce (can find an online tutorial? re-purpose a bit for us?)
+- participants experiment with other services providers like EC2, Azure, NVIDIA, AWS, etc (can find an online tutorial? re-purpose a bit for us?)
 
----
+## Logistics Notes
 
-__Pre-requisites__
-
-The above activities assume that this session is preceded by a discussion that includes the following
-
-- how does the HPC computing model differ from computing on your local machine?  
-- what do those differences mean for how you arrange your program? 
-- the IO choices you make
-- the different categories HPC infrastructures: clusters, and clouds 
-- jargon / terminology: multi-cores, GPUs, cloud computing, MPI, etc
-- HPC programming languages: CUDAC, Fortran, etc
+- Pre-arranged accounts
+- Confirm workshop access (e.g., SSH issues?)
