@@ -64,7 +64,6 @@ One file contains JSON row arrays, and the other JSON key-value objects. Below, 
     print >> f, j
         
     conn.close()
-```    
 
 
 * Set a connection string to the Server      
@@ -78,6 +77,5 @@ One file contains JSON row arrays, and the other JSON key-value objects. Below, 
                 FROM Students
                 """)
     rows = cursor.fetchall()
-
 
 ```
