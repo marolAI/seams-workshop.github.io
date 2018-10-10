@@ -123,3 +123,44 @@ In this case, we’ll build JSON.
     ]
 ```
 
+ * The script next builds a list of dictionaries, with each row in the database becoming one dictionary and each field in the row a key-value pair:
+```
+    objects_list = []
+    for row in rows:
+        d = collections.OrderedDict()
+        d['id'] = row.ID
+        d['FirstName'] = row.FirstName
+        d['LastName'] = row.LastName
+        d['Street'] = row.Street
+        d['City'] = row.City
+        d['ST'] = row.ST
+        d['Zip'] = row.Zip
+        objects_list.append(d)
+    j = json.dumps(objects_list)
+    objects_file = 'student_objects.js'
+    f = open(objects_file,'w')
+    print >> f, j
+```
+* Using Python’s OrderedDict() object from its collections class in place of a regular dictionary. While this is not necessary, I like to use it so I can force the order of dictionary keys to make the JSON more readable for fact-checking. Be sure to import collections at the beginning of your script.
+```
+    [
+        {
+            "id": 1,
+            "FirstName": "Samantha",
+            "LastName": "Baker",
+            "Street": "9 Main St.",
+            "City": "Hyde Park",
+            "ST": "NY",
+            "Zip": "12538"
+        },
+        {
+            "id": 2,
+            "FirstName": "Mark",
+            "LastName": "Salomon",
+            "Street": "12 Destination Blvd.",
+            "City": "Highland",
+            "ST": "NY",
+            "Zip": "12528"
+        }
+    ]
+```
