@@ -3,52 +3,35 @@ slug: workspace
 title: Workspace Organization & Tools
 ---
 
-TBD!
+## Collaboration technology and protocols
 
-<!--You have a [rough](defining-project/) [project](defining-project/session/) [definition](defining-project/project/).  Now what?
+How are you going to share work?  Communicate?  Keep records of decisions?  Track progress on goals?  Choose a set of assistive technologies for sharing, and develop protocols for using them with your team. 
 
-You don't know exactly what the final product looks like, or how you are going to get there, but like every good researcher you want to *follow the scientific method*, *accomplish research effectively*, and *share that work with the community*.
+### Technologies 
 
-You can help yourself, your collaborators, and other researchers achieve these goals by choosing and organizing your tools and workspace effectively.
+Decide what **types** of communication and collaboration technology facilitate the success of your project.  Choose (ideally) just one tool of each type.  We will address version control separately below.  
 
-## Science as *Process* and *Product*
+1. communication and collaboration technology types
+   * real-time communication by phone, email, or chat
+   * virtual meetings (Skype, Hangout, Zoom, etc)
+   * comment threads on tickets in your issue tracker
+1. file-sharing  
+   * version control
+   * DropBox, Drive, etc
+1. document-sharing and collaborative editing
+   * Drive docs, etherpad
+   
+How much can you do with one platform?  For instance, maintain code and issues in GitHub, maintain planning docs on GitHub as well, add gitter for chat, add Waffle for multi-repo project tracker, Jekyll for CI. 
 
-What makes science *good*?  One aspect concerns characteristics of results: *novelty*, *generalizability* or *extensibility*, *utility*, *etc*.
+### Protocols
 
-Another concerns how those results were achieved: *replicability*, *verifiability*, *validity*, *credibility*, *etc*.
+1.  Agree on which technologies are used for which things.  
+   * What goes into version control in a shared repo, and what goes in document sharing?
+   * Public vs. private is a big issue here.  You may have a public code repo, but you need a private channel to discuss sensitive project issues, and a private file-sharing space for things like manuscripts in progress.  Do you want to keep planning documents private?  Do you want a private communication channel?  
+   * Which kinds of plans are discussed in a public chatroom, and which are reserved for private channels
+1.  Agree on how to use a technology
+   * shared editing.  Wikipedia style, or is one person the lead author or owner? 
 
-When there is a large software component to some research work, much like when there is a large empirical component either in laboratory experiment or field observation, *organization* can contribute to those aspects.  For particularly complex phenomena, a *lack* of organization can thwart even getting results, let alone providing solid provenance for those results.
-
-In the [classroom session](organizing-outer/session/) and [extended exercise](organizing-outer/practice/), we will try connect to how you can organize your **workspace** and **tools** in a way that improves your [project work](organizing-outer/project/) towards satisfying those concerns.
-
-## Caveat: Deal With the Fact That You Don't Know!
-
-Science is typically about *exploration*.  How you choose to organize your workspace can support that exploration, or obsessing about arrangements can distract from getting things done.
-
-What follows are discussions about how to strike that balance.
-
-## Collaboration & Configuration
-
-You and your collaborators (and more generally, any researchers engaging with your work) are going to be using different computers.  How are you going to share work effectively?
-
-One problem is just making sure the team is all working with a shared perspective.  The are several approaches to data sharing.  When it comes to analytical code, version control is the preferred way to manage that.
-
-But beyond these basic concerns, the team members will likely have different setups on their computers.  This is fine - different people have different resources, tasks, preferences, *etc*.
-
-Many times these differences are trivial - for example, if you're all working on machines in a lab with the same computers and OS, doing research that doesn't require any particular libraries.  However, you and your collaborators may be using different operating systems, on a project that relies on a variety of different tools.
-
-In that situation, you'll need to think ahead a bit.  What sort of problems does this create?  How can you address those challenges?
-
-Search for `python dependency management` or `r dependency management`.  What do you find?
-
-## What to Do About Data?
-
- - [Data Management Discussion](http://mariovalle.name/sdm/scientific-data-management.html)
- - [Boston University Discussion](http://www.bu.edu/datamanagement/outline/elements/) - good surrounding context discussion as well
- - [Discussion of Long vs Short Form Data](http://seananderson.ca/2013/10/19/reshape.html), and from `reshape2` package author:
- - [J. Stat. Soft. article discussing](http://www.jstatsoft.org/v21/i12)
- - [SO: Why Use SQL Database?](http://stackoverflow.com/questions/2900324/why-use-sql-database)
- - [UK Data Archive](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf) - good general read, but certain specific sections pertinent to how to organize / save yours
 
 ## Version Control
 
@@ -64,8 +47,47 @@ Search for `python dependency management` or `r dependency management`.  What do
    * [writing good commit messages](http://chris.beams.io/posts/git-commit/)
    * [daunting book](https://progit.org/)
 
-Another thing to keep in mind: what goes in the repository vs. what stays on your local machine.
+Protocol questions
+* what goes under version control, and what doesn't
+* branching protocol
+* gitflow and other patterns
 
+## Organizing project resources 
+
+## Issue tracking 
+
+
+
+## Managing resources 
+
+* Backup.  Safeguard against accidental loss or corruption.  
+* Organization.   
+* File encodings
+* Documentation.  separate section. 
+* Sharing and re-use
+* Preservation
+
+ - [Data Management Discussion](http://mariovalle.name/sdm/scientific-data-management.html)
+ - [Boston University Discussion](http://www.bu.edu/datamanagement/outline/elements/) - good surrounding context discussion as well
+ - [Discussion of Long vs Short Form Data](http://seananderson.ca/2013/10/19/reshape.html), and from `reshape2` package author:
+ - [J. Stat. Soft. article discussing](http://www.jstatsoft.org/v21/i12)
+ - [SO: Why Use SQL Database?](http://stackoverflow.com/questions/2900324/why-use-sql-database)
+ - [UK Data Archive](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf) - good general read, but certain specific sections pertinent to how to organize / save yours
+
+
+## Packaging for distribution
+* 
+* 
+
+
+## IDE Organization Tools
+
+ - [What is an IDE](http://en.wikipedia.org/wiki/Integrated_development_environment) and [why use one](http://programmers.stackexchange.com/questions/20950/what-justifies-the-use-of-an-ide-versus-a-standard-editor) [(or not)](http://blog.bittersweetryan.com/2012/02/great-ide-vs-text-editor-debate-why-i.html)?
+ - [Broad Comparison of IDE](http://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments) - what seems to be important?
+ - [RStudio IDE Project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
+ - [PyCharm IDE Project](https://www.jetbrains.com/pycharm/help/project.html)
+
+<!--
 ## System Tools
 
 Unix-like systems provide a variety of command line tools to accomplish tasks in the file system.  In some settings
@@ -82,15 +104,10 @@ Some command line cheat sheets:
  - [Python Project Template Guide](http://learnpythonthehardway.org/book/ex46.html) - challenge: write a bash script to automate this approach
  - [...or try any of several pre-packaged options](https://www.google.com/search?q=python%20package%20template)
  - [General Discussion for R Packages](http://r-pkgs.had.co.nz/)
+--> 
 
-## IDE Organization Tools
 
- - [What is an IDE](http://en.wikipedia.org/wiki/Integrated_development_environment) and [why use one](http://programmers.stackexchange.com/questions/20950/what-justifies-the-use-of-an-ide-versus-a-standard-editor) [(or not)](http://blog.bittersweetryan.com/2012/02/great-ide-vs-text-editor-debate-why-i.html)?
- - [Broad Comparison of IDE](http://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments) - what seems to be important?
- - [RStudio IDE Project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects)
- - [PyCharm IDE Project](https://www.jetbrains.com/pycharm/help/project.html)
-
-## Publish!
+<!-- ## Publish!
 
 The our goal as scientists is to create useful knowledge (*useful* may be defined on a very long time scale).  Knowledge doesn't exist if people don't have access to it, and it's not useful if they can't engage with it.
 
@@ -123,4 +140,7 @@ support:
  - effective collaboration with people in different roles (*e.g.*, theoreticians, modelers, field scientists)
  - portability
  - publication (results *as well as recipe*)
- - subsequent extension-->
+ - subsequent extension
+ 
+ -->
+
