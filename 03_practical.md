@@ -97,3 +97,29 @@ In this case, we’ll build JSON.
     f = open(rowarrays_file,'w')
     print >> f, j
 ```
+
+* The JSON result looks like this, with each tuple in a JSON array:
+
+```
+    [
+        [
+            1,
+            "Samantha",
+            "Baker",
+            "9 Main St.",
+            "Hyde Park",
+            "NY",
+            "12538"
+        ],
+        [
+            2,
+            "Mark",
+            "Salomon",
+            "12 Destination Blvd.",
+            "Highland",
+            "NY",
+            "12528"
+        ]
+    ]
+```
+
