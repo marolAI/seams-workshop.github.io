@@ -80,5 +80,5 @@ One file contains JSON row arrays, and the other JSON key-value objects. Below, 
     rows = cursor.fetchall()
 
 ```
-The script loads the query results into a list object called rows, which we can iterate through to do any number of things.
+The script above loads the query results into a list object called rows, which we can iterate through to do any number of things.
 In this case, we’ll build JSON.
