@@ -15,13 +15,15 @@ The practical exercises we have planned for each topic are similar to those in p
 Steps to take during the practical  
 1.Install python3
 2.Import Database connector based on the database used i.e  pyodbc for Sql server, psycopg2 for PostgresSQL 
-3.Create a table or tables to query in your SQL database and write and test your query. In this example, I have a table called Students that has a few fields for each student. The query is simple:
+3.Create a table or tables to query in your SQL database and write and test your query.   
+In this example, I have a table called Students that has a few fields for each student. The query is simple:
 ```
     SELECT ID, FirstName, LastName, Street, City, ST, Zip
     FROM Students
 ```
 
-4.4. Here’s an example script that generates two JSON files from that query. One file contains JSON row arrays, and the other JSON key-value objects. Below, we’ll walk through it step-by-step.
+4.4. Here’s an example script that generates two JSON files from that query.
+One file contains JSON row arrays, and the other JSON key-value objects. Below, we’ll walk through it step-by-step.
 ```
     import pyodbc
     import json
