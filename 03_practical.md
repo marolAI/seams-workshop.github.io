@@ -86,3 +86,14 @@ In this case, we’ll build JSON.
 * At the top of the file, the script imports Python’s json module, which translates Python objects to JSON and vice-versa. Python lists and tuples become arrays while dictionaries become objects with key-value pairs.  
 
 * In the first example, the script builds a list of tuples, with each row in the database becoming one tuple. Then, the json module’s “dumps” method is used to serialize the list of tuples to JSON, and we write to a file:  
+```
+    rowarray_list = []
+    for row in rows:
+        t = (row.ID, row.FirstName, row.LastName, row.Street, 
+             row.City, row.ST, row.Zip)
+        rowarray_list.append(t)
+    j = json.dumps(rowarray_list)
+    rowarrays_file = 'student_rowarrays.js'
+    f = open(rowarrays_file,'w')
+    print >> f, j
+```
