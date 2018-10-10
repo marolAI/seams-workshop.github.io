@@ -12,7 +12,7 @@ The practical exercises we have planned for each topic are similar to those in p
 # Generate JSON From SQL Using Python
 
 ```
-Steps to take during the practical  
+___Steps to take during the practical___
 1.Install python3
 2.Import Database connector based on the database used i.e  pyodbc for Sql server, psycopg2 for PostgresSQL 
 3.Create a table or tables to query in your SQL database and write and test your query.   
@@ -65,10 +65,6 @@ One file contains JSON row arrays, and the other JSON key-value objects. Below, 
         
     conn.close()
     
-```
-
-
-```
 
 ```
 *Set a connection string to the Server  
