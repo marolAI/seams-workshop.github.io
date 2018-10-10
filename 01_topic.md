@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Working with csv Files and Jason data
+title: Working with csv Files and Json data
 permalink: /topic/
 ---
 Week 1 Topics:
