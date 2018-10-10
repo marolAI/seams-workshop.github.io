@@ -5,7 +5,7 @@ title: Reuse & Reusability
 
 Exercise.  Make some part of your project reusable
 
- 1. Initial conception.  Identify a part of your project that might be carved off as a re-usable package.  You might do this solely for yourself and your colleagues, or for a broader set of users. 
+1. Initial conception.  Identify a part of your project that might be carved off as a re-usable package.  You might do this solely for yourself and your colleagues, or for a broader set of users. 
    * what does the package do?  
    * what would it be used for?  who would use it?   
    * what would be the dependencies? 
