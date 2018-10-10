@@ -64,9 +64,9 @@ One file contains JSON row arrays, and the other JSON key-value objects. Below, 
     print >> f, j
         
     conn.close()
-    
+```    
 
-```
+
 * Set a connection string to the Server      
 * Set a connection string to the server. Then, we use pyodbc to open that connection and execute the query:    
 
