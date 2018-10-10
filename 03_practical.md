@@ -69,7 +69,8 @@ One file contains JSON row arrays, and the other JSON key-value objects. Below, 
 * Set a connection string to the Server      
 * Set a connection string to the server. Then, we use pyodbc to open that connection and execute the query:    
 
-``` connstr = 'DRIVER={SQL Server};SERVER=ServerName;DATABASE=Test;'
+``` 
+    connstr = 'DRIVER={SQL Server};SERVER=ServerName;DATABASE=Test;'
     conn = pyodbc.connect(connstr)
     cursor = conn.cursor()
     cursor.execute("""
