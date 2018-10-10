@@ -80,5 +80,9 @@ One file contains JSON row arrays, and the other JSON key-value objects. Below, 
     rows = cursor.fetchall()
 
 ```
-The script above loads the query results into a list object called rows, which we can iterate through to do any number of things.
-In this case, we’ll build JSON.
+* The script above loads the query results into a list object called rows, which we can iterate through to do any number of things.  
+In this case, we’ll build JSON.  
+
+* At the top of the file, the script imports Python’s json module, which translates Python objects to JSON and vice-versa. Python lists and tuples become arrays while dictionaries become objects with key-value pairs.  
+
+* In the first example, the script builds a list of tuples, with each row in the database becoming one tuple. Then, the json module’s “dumps” method is used to serialize the list of tuples to JSON, and we write to a file:  
