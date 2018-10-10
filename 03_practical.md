@@ -22,7 +22,7 @@ In this example, I have a table called Students that has a few fields for each s
     FROM Students
 ```
 
-4.4. Here’s an example script that generates two JSON files from that query.
+4. Here’s an example script that generates two JSON files from that query.
 One file contains JSON row arrays, and the other JSON key-value objects. Below, we’ll walk through it step-by-step.
 ```
     import pyodbc
