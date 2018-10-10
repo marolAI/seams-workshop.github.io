@@ -63,8 +63,6 @@ Steps to take during the practical
         
     conn.close()
     
-    
-    
 ```
 
 
