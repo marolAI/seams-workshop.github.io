@@ -3,7 +3,7 @@ slug: workspace
 title: Workspace Organization & Tools
 ---
 
-TBD!
+for now, see the [slide deck on drive](https://docs.google.com/presentation/d/1RuONjswdcDhIMKZtNo21zrOcDjJbFrzKzX6pEC-1rko/edit#slide=id.g435be3fd74_0_26)
 
 <!--
 Why organize?  What's the benefit?  What's the cost?  How do you organize?
