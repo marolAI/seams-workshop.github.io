@@ -25,7 +25,7 @@ How much can you do with one platform?  For instance, maintain code and issues i
 
 ### Protocols
 
-1.  Agree on which technologies are used for which things.  
+1. Agree on which technologies are used for which things.  
    * What goes into version control in a shared repo, and what goes in document sharing?
    * Public vs. private is a big issue here.  You may have a public code repo, but you need a private channel to discuss sensitive project issues, and a private file-sharing space for things like manuscripts in progress.  Do you want to keep planning documents private?  Do you want a private communication channel?  
    * Which kinds of plans are discussed in a public chatroom, and which are reserved for private channels
