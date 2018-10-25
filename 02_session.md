@@ -26,9 +26,6 @@ The specific sessions for each topic are similar to those in previous years, tho
     for the future.  (https://dzone.com/articles/what-are-databases-used-for)    
 * Databases are critical to delivering the immediate, personalized, data-driven applications and real-time analytics.  
 
-# Balance between plain text and human readable string data
-* all data can be parsed by a suitably equipped and programmed computer or machine; reasons for choosing binary formats over text formats  
-  usually center on issues of storage space, as a binary representation usually takes up fewer bytes of storage, and efficiency of access (input and output) without parsing or conversion.
 # Schemas and validators
 # Trade offs between text files and csv files.
 
@@ -63,7 +60,9 @@ Just the storage of this number of files presents a challenge:
 2.	The next problem is how to name these files. Choosing file names is a form of documentation; the name of the file   should clearly describe the contents of the file, or at least distinguish the contents of the file from the contents of other files in the same directory.
 4.  Another thing to consider is how the files will be ordered in directory listings; will it be easy to browse a list of the files in a directory and find the file we want?
 
-
+# Balance between plain text and human readable string data
+* All data can be parsed by a suitably equipped and programmed computer or machine; reasons for choosing binary formats over text formats  
+  usually center on issues of storage space, as a binary representation usually takes up fewer bytes of storage, and efficiency of access (input and output) without parsing or conversion.
 
 # Reference list  
 * https://dzone.com/articles/what-are-databases-used-for
