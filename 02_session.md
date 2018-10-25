@@ -36,7 +36,7 @@ The specific sessions for each topic are similar to those in previous years, tho
 - lack of data integrity measures
 
 
-![alt text here](Desktop/family tree.png)
+![Figure1.1]()
 
 Consider a data set collected on two families from the above figure 1.1 .What would this look like as a flat file?  
 One possible comma-delimited format is shown below:  
