@@ -27,6 +27,8 @@ The specific sessions for each topic are similar to those in previous years, tho
 * Databases are critical to delivering the immediate, personalized, data-driven applications and real-time analytics.  
 
 # Balance between plain text and human readable string data
+* all data can be parsed by a suitably equipped and programmed computer or machine; reasons for choosing binary formats over text formats  
+  usually center on issues of storage space, as a binary representation usually takes up fewer bytes of storage, and efficiency of access (input and output) without parsing or conversion.
 # Schemas and validators
 # Trade offs between text files and csv files.
 
