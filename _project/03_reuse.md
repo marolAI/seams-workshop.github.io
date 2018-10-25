@@ -3,7 +3,9 @@ slug: reuse
 title: Reuse & Reusability
 ---
 
-Exercise.  Make some part of your project reusable
+This is more than anyone can do.  We are trying to give a range of tasks ... (explain expectations)
+
+Exercise 1.  Making some part of your project reusable
 
 1. Initial conception.  Identify a part of your project that might be carved off as a re-usable package.  You might do this solely for yourself and your colleagues, or for a broader set of users. 
    * what does the package do?  
@@ -16,7 +18,7 @@ Exercise.  Make some part of your project reusable
    * what changes in file naming and organization would be useful? 
    * what new tests, if any, would be helpful?
 
-Alternative.  Replace parts of your package with an existing module.  
+Exercise 2.  Replacing parts of your package with an existing module.  
 
 1.  Identify replaceable modules.  
    * list 3 parts of your project where you suspect that someone has done this before, and you might benefit from their work 
