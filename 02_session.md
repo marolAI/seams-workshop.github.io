@@ -12,6 +12,14 @@ The specific sessions for each topic are similar to those in previous years, tho
 * Extensively used file extension for our datasets and compatible with other database technologies like sql
 # 10 highlevel concepts
 # Reading material min task lasting 1-3 minutes in pairs
+# What is a database ?
+* A database consists of a number of interrelated tables. 
+* Each table has a number of records which are used to represent real world objects.
+* Each record has a number of fields which are data items used to specify a characteristic of the record. Examples of fields
+  (Name, address and gender) with structures to specify the types of data per each field e.g (integer, Characters,)  
+* A database management system is a Relational Database Management System (RDBMS) if different tables are related to each other by  
+  common fields, so that information from several tables can be combined.
+
 # When do i use a database?
 * When we want to store and retrieve information. Databases guarantee persistent, reliable access to the data and provide the  
     ability to co-relate data that gets produced in different areas to understand relationships, generate reports to predict trends  
