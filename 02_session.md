@@ -28,7 +28,8 @@ The specific sessions for each topic are similar to those in previous years, tho
 
 ![alt text here](Desktop/family tree.png)
 ```
-Consider a data set collected on two families from the above figure 1.4 .What would this look like as a flat file? One possible comma-delimited format is shown below:  
+Consider a data set collected on two families from the above figure 1.4 .What would this look like as a flat file?  
+One possible comma-delimited format is shown below:  
 
 John,33,male,Julia,32,female,Jack,6,male
 John,33,male,Julia,32,female,Jill,4,female
@@ -42,9 +43,10 @@ David,45,male,Debbie,42,female,Dianne,12,female
 # Disadvantages of plain CSV files
 
 Just the storage of this number of files presents a challenge:
-1.	Storing these files in one directory would cause confusion making it difficult to find files and would make it difficult to remove or modify files.
-2.	The next problem is how to name these files. Choosing file names is a form of documentation; the name of the file should clearly describe the contents of the file, or at least distinguish the contents of the file from the contents of other files in the same directory.
-3.	Another thing to consider is how the files will be ordered in directory listings; will it be easy to browse a list of the files in a directory and find the file we want?
+1.	Storing these files in one directory would cause confusion making it difficult to find files and would make it   
+    difficult to remove or modify files.
+2.	The next problem is how to name these files. Choosing file names is a form of documentation; the name of the file   should clearly describe the contents of the file, or at least distinguish the contents of the file from the contents of other files in the same directory.
+4.  Another thing to consider is how the files will be ordered in directory listings; will it be easy to browse a list of the files in a directory and find the file we want?
 
 
 
