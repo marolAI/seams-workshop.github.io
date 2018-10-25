@@ -13,6 +13,11 @@ The specific sessions for each topic are similar to those in previous years, tho
 # 10 highlevel concepts
 # Reading material min task lasting 1-3 minutes in pairs
 # When do i use a database?
+•	When we want to store and retrieve information. Databases guarantee persistent, reliable access to the data and provide the  
+    ability to co-relate data that gets produced in different areas to understand relationships, generate reports to predict trends  
+    for the future.  (https://dzone.com/articles/what-are-databases-used-for)    
+•	Databases are critical to delivering the immediate, personalized, data-driven applications and real-time analytics.  
+
 # Balance between plain text and human readable string data
 # Schemas and validators
 # Trade offs between text files and csv files.
