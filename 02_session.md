@@ -16,7 +16,7 @@ The specific sessions for each topic are similar to those in previous years, tho
 # Balance between plain text and human readable string data
 # Schemas and validators
 # Trade offs between text files and csv files.
-```
+
 # Disadvantages of plain text files
 * Lack of standards:  
 * No standard way to specify data format. No standard way to express “special characters”.  
@@ -29,7 +29,7 @@ Difficult to store “non-rectangular” data sets.
 
 
 
-```
+
 
 
 # Reference list  
