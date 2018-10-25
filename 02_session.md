@@ -26,7 +26,7 @@ The specific sessions for each topic are similar to those in previous years, tho
 - lack of data integrity measures
 
 
-
+![alt text here](Desktop/family tree.png)
 
 
 
