@@ -8,7 +8,16 @@ Week 1 Morning Discussion Sessions:
 {% endfor %}
 
 The specific sessions for each topic are similar to those in previous years, though we have consolidated them somewhat; while we finalize this year's materials, please feel free to {% include oldlink.md tx='peruse past sessions' l='sessions' %}.
-# Why we should care about the topic and how we should think about it?
+# Discussion questions ?
+* Why we should care about the topic and how we should think about it?
+* How should we organize and manage our data? 
+* How can we automatically gather data? 
+* How do we capture / document data cleaning / curation / reshaping process?  
+* How do we share the data ?
+* Which formats for which tasks? 
+* For outputs: how do we make them repeatable (including stochastic ones).  
+* What kind of checkpointing / intermediate outputs / caching should be done? 
+* What are the performance characteristics (size + access time) of the data format?
 
 # What is a database ?
 * A database consists of a number of interrelated tables. 
