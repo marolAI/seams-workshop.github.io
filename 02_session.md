@@ -19,12 +19,11 @@ The specific sessions for each topic are similar to those in previous years, tho
 
 # Disadvantages of plain text files
 * Lack of standards:  
-** No standard way to specify data format. No standard way to express “special characters”.  
+- No standard way to specify data format. No standard way to express “special characters”.  
 * Inefficiency:  
-* Can lead to massive redundancy (repetition of values). Speed of access and space efficiency for large data sets.  Difficult to store “non-rectangular” data sets.  
-* Internationalization  
+- Can lead to massive redundancy (repetition of values). Speed of access and space efficiency for large data sets.  Difficult to store “non-rectangular” data sets.  
 * Lack of data integrity:
-* lack of data integrity measures
+- lack of data integrity measures
 
 
 
