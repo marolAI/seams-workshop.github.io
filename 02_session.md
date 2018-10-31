@@ -43,9 +43,8 @@ The specific sessions for each topic are similar to those in previous years, tho
 - Can lead to massive redundancy (repetition of values). Speed of access and space efficiency for large data sets.  Difficult to store “non-rectangular” data sets.  
 * Lack of data integrity:
 - lack of data integrity measures
+![Caption for the picture.](/gitlab.com/SEAMS-Workshop/seams-workshop.gitlab.io/blob/input_output/family%20tree.png)
 
-
-![Figure1.1](https://gitlab.com/SEAMS-Workshop/seams-workshop.gitlab.io/blob/input_output/family%20tree.png)
 
 Consider a data set collected on two families from the above figure 1.1 .What would this look like as a flat file?  
 One possible comma-delimited format is shown below:  
