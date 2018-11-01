@@ -48,3 +48,5 @@ title: Project Design & Planning
 
 *No coding.* Initial work should be handwritten, then typed up (plaintext) as (at most) a draft outline for some sort of publication.  Students will present their research proposals at the end of the day.
 -->
+
+<!--nothing to add-->
