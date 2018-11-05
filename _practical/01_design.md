@@ -110,7 +110,7 @@ Project Planning helps us to : | Project Planning helps to eliminate:
 management of uncertainity, results oriented to the needs of the project, results oriented to the needs of the project.
 
 ### Project Design: Helps us to align and mobilise resources
--->
+
 
 <table>
 <tr>
@@ -138,3 +138,4 @@ management of uncertainity, results oriented to the needs of the project, result
 
 </tr>
 </table>
+-->
