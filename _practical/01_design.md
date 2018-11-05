@@ -129,7 +129,7 @@ management of uncertainity, results oriented to the needs of the project, result
 </table>
 
 Projects have a lot of tasks and you have several options by which you can group them:
-
+```
 1. Progress: Backlog, Next, In-Progress, Review, Done
 2. Type of Work: Design, Development, QA
 3. Time: Today, This Week, Next Week, May 2016, To Be Determined
@@ -138,4 +138,5 @@ Projects have a lot of tasks and you have several options by which you can group
 6. Priority: Low, Routine, Normal, Priority, Critical
 7. Complexity: Quick Fix, Minor Improvement, Big Feature, Security
 8. Hybrid: a mix of the above
+```
 -->
