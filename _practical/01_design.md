@@ -92,7 +92,7 @@ The projects:
    updates, new apps, usage changes)
 
 5. predictive elephant movement simulator
--->
+
 Project Planning helps us to : | Project Planning helps to eliminate:
 ------------------------------  -------------------------------------
 * Set up realistic time frames  * poor Planning.  
@@ -110,4 +110,4 @@ Project Planning helps us to : | Project Planning helps to eliminate:
 management of uncertainity, results oriented to the needs of the project, results oriented to the needs of the project.
 
 ### Project Design: Helps us to align and mobilise resources
-
+-->
