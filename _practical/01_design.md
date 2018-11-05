@@ -128,7 +128,7 @@ management of uncertainity, results oriented to the needs of the project, result
 
 </tr>
 <tr>
-<td>results oriented</td>
+<td>results oriented towards the needs of the project</td>
 <td>Unsustainable projects</td>
 
 </tr>
