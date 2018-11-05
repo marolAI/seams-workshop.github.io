@@ -131,11 +131,11 @@ management of uncertainity, results oriented to the needs of the project, result
 Projects have a lot of tasks and you have several options by which you can group them:
 
 1. Progress: Backlog, Next, In-Progress, Review, Done
-2. Type of Work: Design, Marketing, Development, QA
+2. Type of Work: Design, Development, QA
 3. Time: Today, This Week, Next Week, May 2016, To Be Determined
 4. Product: Website, Mobile App, Desktop App, Blog
-5. Feature: Homepage, Contact Us, Header, Footer, Shopping Cart
-6. Priority: Low, Routine, Normal, Priority, Critical, DEFCON 1
-7. Complexity: Quick Fix, Minor Improvement, Big Feature, Security, Tech Debt
+5. Feature: Homepage, Contact Us, Header, Footer, backend applications
+6. Priority: Low, Routine, Normal, Priority, Critical
+7. Complexity: Quick Fix, Minor Improvement, Big Feature, Security
 8. Hybrid: a mix of the above
 
