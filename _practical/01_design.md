@@ -100,7 +100,7 @@ management of uncertainity, results oriented to the needs of the project, result
 
 ### Project Design: Helps us to align and mobilise resources
 
--->
+
 <table>
 <tr>
 <th><b>Project Planning helps us to :</th></b>
@@ -138,4 +138,4 @@ Projects have a lot of tasks and you have several options by which you can group
 6. Priority: Low, Routine, Normal, Priority, Critical
 7. Complexity: Quick Fix, Minor Improvement, Big Feature, Security
 8. Hybrid: a mix of the above
-
+-->
