@@ -73,7 +73,6 @@ Some scenarios:
 10. 3-5 milestones?
 11. Potential challenges?
 
-
 ###Applying these ideas
 
 For each of the following projects, take a few minutes to answer my list
@@ -93,4 +92,10 @@ The projects:
    updates, new apps, usage changes)
 
 5. predictive elephant movement simulator
+
+###Project Plannning: Helps us to put in place realistic time frames to complete a software project, constant software revisions (software refractory),  
+management of uncertainity, results oriented to the needs of the project, results oriented to the needs of the project.
+
+### Project Design: Helps us to align and mobilise resources
+
 -->
