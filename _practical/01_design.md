@@ -114,8 +114,8 @@ management of uncertainity, results oriented to the needs of the project, result
 
 <table>
 <tr>
-<td><b>Project Planning helps us to :</b></td>
-<td><b> Project Planning helps to eliminate:</b></td>
+<td><b><th>Project Planning helps us to :</th></b></td>
+<td><b> <th>Project Planning helps to eliminate:</th></b></td>
 </tr>
 <tr>
 <td>-Set up realistic time frames towards project completion</td>
