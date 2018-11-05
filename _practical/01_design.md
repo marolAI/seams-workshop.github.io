@@ -122,4 +122,19 @@ management of uncertainity, results oriented to the needs of the project, result
 <td>- poor planning</td>
 
 </tr>
+<tr>
+<td>-Have continuos software revisions (code refractory)</td>
+<td>-Overmbitious projects</td>
+
+</tr>
+<tr>
+<td>-Set up realistic time frames towards project completion</td>
+<td>- Unsustainable projects</td>
+
+</tr>
+<tr>
+<td>-results oriented</td>
+<td>-undefined problems</td>
+
+</tr>
 </table>
