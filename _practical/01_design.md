@@ -120,7 +120,6 @@ management of uncertainity, results oriented to the needs of the project, result
 <tr>
 <td>-Set up realistic time frames towards project completion</td>
 <td>- poor planning</td>
-<td>-Set up realistic time frames towards project completion</td>
-<td>- poor planning</td>
+
 </tr>
 </table>
