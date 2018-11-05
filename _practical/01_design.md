@@ -118,7 +118,7 @@ management of uncertainity, results oriented to the needs of the project, result
 <th><b>Project Planning helps to eliminate:</th></b>
 </tr>
 <tr>
-<td>Set up realistic time frames towards project completion</td>
+<td>Set up realistic time frames geared towards project completion</td>
 <td>poor planning</td>
 
 </tr>
@@ -128,7 +128,7 @@ management of uncertainity, results oriented to the needs of the project, result
 
 </tr>
 <tr>
-<td>Set up realistic time frames towards project completion</td>
+<td></td>
 <td>Unsustainable projects</td>
 
 </tr>
