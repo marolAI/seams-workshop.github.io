@@ -1,8 +1,6 @@
 ---
-layout: page
+layout: people
 permalink: /participants/
 ---
-
-Soon: your picture, short bio, and project here!
-
-{% include applications.md %}
+{% for part in site.participants %}{% include faculty.md profile=part %}
+{% endfor %}
