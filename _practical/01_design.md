@@ -92,10 +92,22 @@ The projects:
    updates, new apps, usage changes)
 
 5. predictive elephant movement simulator
+-->
+Project Planning helps us to : | Project Planning helps to eliminate:
+------------------------------  -------------------------------------
+* Set up realistic time frames  * poor Planning.  
+ towards project completion.    * Overambitious projects.            
+* Manage uncertainity.          * Unsustainable projects.  
+* Have constant software        * undefined problems.  
+  revisions(Code refractory).
+* results oriented to the needs
+  of the project
+                                                  
+                    
+                                         
 
 ###Project Plannning: Helps us to put in place realistic time frames to complete a software project, constant software revisions (software refractory),  
 management of uncertainity, results oriented to the needs of the project, results oriented to the needs of the project.
 
 ### Project Design: Helps us to align and mobilise resources
 
--->
