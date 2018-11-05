@@ -118,23 +118,23 @@ management of uncertainity, results oriented to the needs of the project, result
 <th><b>Project Planning helps to eliminate:</th></b>
 </tr>
 <tr>
-<td>-Set up realistic time frames towards project completion</td>
-<td>- poor planning</td>
+<td>Set up realistic time frames towards project completion</td>
+<td>poor planning</td>
 
 </tr>
 <tr>
-<td>-Have continuos software revisions (code refractory)</td>
-<td>-Overmbitious projects</td>
+<td>Have continuos software revisions (code refractory)</td>
+<td>Overmbitious projects</td>
 
 </tr>
 <tr>
-<td>-Set up realistic time frames towards project completion</td>
-<td>- Unsustainable projects</td>
+<td>Set up realistic time frames towards project completion</td>
+<td>Unsustainable projects</td>
 
 </tr>
 <tr>
-<td>-results oriented</td>
-<td>-undefined problems</td>
+<td>results oriented</td>
+<td>undefined problems</td>
 
 </tr>
 </table>
