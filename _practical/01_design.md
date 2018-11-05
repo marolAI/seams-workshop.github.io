@@ -114,11 +114,11 @@ management of uncertainity, results oriented to the needs of the project, result
 
 <table>
 <tr>
-<td>Eggs</td>
-<td>Ham</td>
+<td>Project Planning helps us to</td>
+<td> Project Planning helps to eliminate:</td>
 </tr>
 <tr>
-<td>Basil</td>
-<td>Tomato</td>
+<td>.</td>
+<td>.</td>
 </tr>
 </table>
