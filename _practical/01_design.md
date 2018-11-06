@@ -94,8 +94,26 @@ The projects:
 5. predictive elephant movement simulator
 
 6. Upload a picture and have it fit onto the designed cell in an html table or crop a foto so that it fits on the cell
+```
+Pseudocode
 
+input
+   display a message asking user to upload a picture
+   get the picture
+   display a message with probable crop dimensions
+   get the with and length of the desired cell
+   display a message to confirm the crop by dimensions supplied by the keyboard
+   get dimensions
+ 
+processing
+   calculate the difference between the actual image and the cell to be populated to make the best fit without adjustments
+   the neighboring cells.
 
+output
+   display the cell with the picture
+  
+
+```
 ### Project Design: Helps us to align and mobilise resources
 
 
