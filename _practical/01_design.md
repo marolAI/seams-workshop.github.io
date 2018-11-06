@@ -100,18 +100,17 @@ Pseudocode
 input
    display a message asking user to upload a picture
    get the picture
-   display a message with probable crop dimensions
-   get the with and length of the desired cell
+   display a message with probable crop dimensions based on the size of the cell
+   get dimensions supplied from the Keyboard
    display a message to confirm the crop by dimensions supplied by the keyboard
    get dimensions
  
 processing
-   calculate the difference between the actual image and the cell to be populated to make the best fit without adjustments
+   calculate the difference between the actual image and the cell to be populated to make the best fit without adjustments on the
    the neighboring cells.
 
 output
-   display the cell with the picture
-  
+   display the cell with the picture/ uploaded
 
 ```
 ### Project Design: Helps us to align and mobilise resources
