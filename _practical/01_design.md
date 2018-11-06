@@ -97,7 +97,7 @@ The projects:
 ```
 Pseudocode
 
-input
+Input
    display a message asking user to upload a picture
    get the picture
    display a message with probable crop dimensions based on the size of the cell
@@ -105,11 +105,11 @@ input
    display a message to confirm the crop by dimensions supplied by the keyboard
    get dimensions
  
-processing
+Processing
    calculate the difference between the actual image and the cell to be populated to make the best fit without adjustments on the
    the neighboring cells.
 
-output
+Output
    display the cell with the picture/ uploaded
 
 ```
