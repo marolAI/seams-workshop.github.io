@@ -4,7 +4,7 @@ title: Project Design & Planning
 ---
 
 TBD!
-<!--
+
 
 ###Why do we write software?
 
