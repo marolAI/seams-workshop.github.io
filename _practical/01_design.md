@@ -93,7 +93,7 @@ The projects:
 
 5. predictive elephant movement simulator
 
-6. Upload a picture and have it fit onto the designed cell in an html table or crop a foto so that it fits on the table cell
+6. Upload a picture and have it fit onto the designed cell in an html table or crop a foto so that it fits on the cell
 
 
 ### Project Design: Helps us to align and mobilise resources
