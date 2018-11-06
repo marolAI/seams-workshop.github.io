@@ -6,7 +6,7 @@ title: Project Design & Planning
 TBD!
 
 <!--
-###Why do we write software?
+### Why do we write software?
 
 Some scenarios:
 - a script to extract some data from a file one time
@@ -26,7 +26,7 @@ Some scenarios:
 - an operating system
 
 
-###Is there anything special about research software? Yes!
+### Is there anything special about research software? Yes!
 - Research software is often trying to do something new,
   and new endeavors don't always succeed.  It is more
   likely that you will have to stop and re-plan at some
@@ -59,7 +59,7 @@ Some scenarios:
 8. Is it an improvement over existing methods?
 
 
-###My list of questions to answer:
+### My list of questions to answer:
 
 1. What is the problem to solve?
 2. Who is the typical user?
@@ -73,7 +73,7 @@ Some scenarios:
 10. 3-5 milestones?
 11. Potential challenges?
 
-###Applying these ideas
+### Applying these ideas
 
 For each of the following projects, take a few minutes to answer my list
 of questions.
@@ -94,27 +94,8 @@ The projects:
 5. predictive elephant movement simulator
 
 6. Upload a picture and have it fit onto the designed cell in an html table or crop a foto so that it fits on the cell
-```
-Pseudocode
 
-Input
-  -display a message asking user to upload a picture
-  -get the picture
-  -display a message with probable crop dimensions based on the size of the cell
-  -get dimensions supplied from the Keyboard
-  -display a message to confirm the crop by dimensions supplied by the keyboard
-  -get dimensions
-   
- 
-Processing
-   -if uploaded_picture does not fit the cell dimensions
-   -calculate the difference between the actual image and the cell to be populated to make the best fit without adjustments on the
-    the neighboring cells.
 
-Output
-   -display the cell with the picture/ uploaded
-
-```
 ### Project Design: Helps us to align and mobilise resources
 
 
