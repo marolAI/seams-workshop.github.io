@@ -17,10 +17,14 @@ For part 3, tell them you are going to add another complication.  They may "refa
 # Example 1 of a posed problem in a web application environment
   You have uploaded profile pictures of people, all with similar dimensions (pixels) to fit onto a cell on a page but some leave empty  
   spaces bordering the picture inside the cell.
+  
 1. Design  diagram/ process flow:
+```
+```
 
 
 2. The plan as a series of implementation steps
+```
 ```
 Input
 -interface with a message to upload a picture
