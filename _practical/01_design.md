@@ -25,7 +25,6 @@ For part 3, tell them you are going to add another complication.  They may "refa
 
 2. The plan as a series of implementation steps
 ```
-```
 Input
 -interface with a message to upload a picture
 -get the picture
@@ -40,7 +39,7 @@ Processing
 Output
 
 -cell is populated with the picture
-```
+
 
 
 <!--
@@ -131,7 +130,7 @@ The projects:
 
 5. predictive elephant movement simulator
 
-```
+
 Input
 -interface with a message to upload a picture
 -get the picture
@@ -146,7 +145,7 @@ Processing
 Output
 
 -cell is populated with the picture
-```
+
 
 
 
