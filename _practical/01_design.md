@@ -18,7 +18,7 @@ For part 3, tell them you are going to add another complication.  They may "refa
   You have uploaded profile pictures of people, all with similar dimensions (pixels) to fit onto a cell on a page but some leave empty  
   spaces bordering the picture inside the cell.
   
-1. Design  diagram/ process flow in high level pseudo-code:
+<b>1. Design  diagram/ process flow in high level pseudo-code:</b>
 ```
 Upload profile picture
          |
@@ -33,7 +33,7 @@ then a crop interface will be generated to adjust the picture for a best fit
 
 ```
 
-2. The plan as a series of implementation steps
+<b>2. The plan as a series of implementation steps </b>
 ```
 Step a. Build interface with option to upload a picture on a separate interface(admin)  
         and display a photograph on a different page.
