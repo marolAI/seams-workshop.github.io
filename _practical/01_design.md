@@ -3,17 +3,24 @@ slug: design
 title: Project Design & Planning
 ---
 
-Bring up general programming project / problem posed in a "real world" framing.  Ask participants to (1) write a design diagram / process flow to solve that problem in high level pseudo-code and (2) the plan (as a series of implementation steps) they would use to accomplish that design.
+The participants will bring up general a programming project / problem posed in a "real world" framing.  Ask participants to:  
+(1) write a design diagram / process flow to solve that problem in high level pseudo-code  
+(2) The plan (as a series of implementation steps) they would use to accomplish that design.
 
-For part 2, add a mild complication to that problem.  Ask them to update (1), and add a step to (2) (WITHOUT REVISING THE STEPS THEY "ALREADY DID") so that they can accomplish addition.  As a (3) ask them what they could have done differently for (1) and (2) such that this update would have been easier.
+For part 2, add a mild complication to that problem.  Ask them to update (1), and add a step to (2) (WITHOUT REVISING THE STEPS THEY   
+"ALREADY DID") so that they can accomplish addition.  As a (3) ask them what they could have done differently for (1) and (2) such that 
+this update would have been easier.
 
 For part 3, tell them you are going to add another complication.  They may "refactor" their (1) and (2) answers based on (3) first.  Once they do that (or not), give them another complication and ask them to update (1) and (2) again, and do another (3) with what improvements they might have made.
 
 
-# Example 1 of a posed problem.
- Situation : You have uploaded pictures , all with similar dimensions but some leave empty spaces bordering the picture when uploaded to fit
- in a cell.
+# Example 1 of a posed problem in a web application environment
+  You have uploaded profile pictures of people, all with similar dimensions (pixels) to fit onto a cell on a page but some leave empty  
+  spaces bordering the picture inside the cell.
+1. Design  diagram/ process flow:
 
+
+2. The plan as a series of implementation steps
 ```
 Input
 -interface with a message to upload a picture
@@ -120,7 +127,6 @@ The projects:
 
 5. predictive elephant movement simulator
 
-6. Upload a picture and have it fit onto the designed cell in an html table or crop a foto so that it fits on the cell
 ```
 Input
 -interface with a message to upload a picture
@@ -140,34 +146,7 @@ Output
 
 
 
-### Project Design: Helps us to align and mobilise resources
 
 
-<table>
-<tr>
-<th><b>Project Planning helps us to :</th></b>
-<th><b>Project Planning helps to eliminate:</th></b>
-</tr>
-<tr>
-<td>Set up realistic time frames geared towards project completion</td>
-<td>poor planning</td>
-
-</tr>
-<tr>
-<td>Have continuos software revisions (code refractory)</td>
-<td>Overmbitious projects</td>
-
-</tr>
-<tr>
-<td>results oriented towards the needs of the project</td>
-<td>Unsustainable projects</td>
-
-</tr>
-<tr>
-<td></td>
-<td>undefined problems</td>
-
-</tr>
-</table>
 
 -->
