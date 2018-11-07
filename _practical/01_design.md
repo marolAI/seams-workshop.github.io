@@ -3,7 +3,7 @@ slug: design
 title: Project Design & Planning
 ---
 
-The participants will bring up general a programming project / problem posed in a "real world" framing.  Ask participants to:  
+The participants will bring up general a programming project / problem posed in a "real world" framing as an individual.  Ask participants to:  
 (1) write a design diagram / process flow to solve that problem in high level pseudo-code  
 (2) The plan (as a series of implementation steps) they would use to accomplish that design.
 
