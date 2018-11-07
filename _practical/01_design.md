@@ -18,8 +18,19 @@ For part 3, tell them you are going to add another complication.  They may "refa
   You have uploaded profile pictures of people, all with similar dimensions (pixels) to fit onto a cell on a page but some leave empty  
   spaces bordering the picture inside the cell.
   
-1. Design  diagram/ process flow:
+1. Design  diagram/ process flow in high level pseudo-code:
 ```
+Upload profile picture
+         |
+        \|/
+if profile picture fits specified cell
+
+then it will be uploaded and displayed
+
+if it does not meet the dimensions specified
+
+then a crop interface will be generated to adjust the picture for a best fit
+
 ```
 
 2. The plan as a series of implementation steps
