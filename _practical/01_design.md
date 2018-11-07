@@ -3,7 +3,34 @@ slug: design
 title: Project Design & Planning
 ---
 
-TBD!
+Bring up general programming project / problem posed in a "real world" framing.  Ask participants to (1) write a design diagram / process flow to solve that problem in high level pseudo-code and (2) the plan (as a series of implementation steps) they would use to accomplish that design.
+
+For part 2, add a mild complication to that problem.  Ask them to update (1), and add a step to (2) (WITHOUT REVISING THE STEPS THEY "ALREADY DID") so that they can accomplish addition.  As a (3) ask them what they could have done differently for (1) and (2) such that this update would have been easier.
+
+For part 3, tell them you are going to add another complication.  They may "refactor" their (1) and (2) answers based on (3) first.  Once they do that (or not), give them another complication and ask them to update (1) and (2) again, and do another (3) with what improvements they might have made.
+
+
+1. ???
+2. ???
+
+6. Upload a picture and have it fit onto the designed cell in an html table or crop a foto so that it fits on the cell
+```
+Input
+-interface with a message to upload a picture
+-get the picture
+
+
+Processing
+- calculate the diffence in pixels between the exisiting cell and the uploaded picture
+- if picture overlaps the boundaries of the cell present an interface to crop the picture
+- if picture is the best fit upload the picture to the cell
+
+
+Output
+
+-cell is populated with the picture
+```
+
 
 <!--
 ### Why do we write software?
