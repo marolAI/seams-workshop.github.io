@@ -10,10 +10,10 @@ For part 2, add a mild complication to that problem.  Ask them to update (1), an
 For part 3, tell them you are going to add another complication.  They may "refactor" their (1) and (2) answers based on (3) first.  Once they do that (or not), give them another complication and ask them to update (1) and (2) again, and do another (3) with what improvements they might have made.
 
 
-1. ???
-2. ???
+# Example 1 of a posed problem.
+ Situation : You have uploaded pictures , all with similar dimensions but some leave empty spaces bordering the picture when uploaded to fit
+ in a cell.
 
-6. Upload a picture and have it fit onto the designed cell in an html table or crop a foto so that it fits on the cell
 ```
 Input
 -interface with a message to upload a picture
