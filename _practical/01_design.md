@@ -26,12 +26,12 @@ For part 3, tell them you are going to add another complication.  They may "refa
 ```
 Step a. Build interface with option to upload a picture on a separate interface(admin)  
         and display a photograph on a different page.
-step b. Get the picture
+step b. Get the picture.
 Step c. Calculate the difference in dimensions between the uploaded picture and the   
         space the picture will fit into a cell by presenting a presenting an interface  
         with a crop functionality.
 Step d. If the picture uploaded best fits the cell then the original picture will be   
-        uploaded, if not the crop interface will pop
+        uploaded, if not the crop interface will be displayed.
 Step e. Cell is populated with the picture
 
 ```
