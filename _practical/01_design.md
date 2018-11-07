@@ -22,27 +22,16 @@ For part 3, tell them you are going to add another complication.  They may "refa
 ```
 ```
 
-
 2. The plan as a series of implementation steps
 ```
+Step 1. Build interface with option to upload a picture on a separate interface(admin) and display a photograph on a different page.
+step 2. Get the picture
+Step 3. Calculate the difference in dimensions between the uploaded picture and the space the picture will fit into a cell by presenting a  
+        presenting an interface with a crop functionality.
+Step 4. If the picture uploaded best fits the cell then the original picture will be uploaded, if not the crop interface will pop
+Step 5. Cell is populated with the picture
+
 ```
-Input
--interface with a message to upload a picture
--get the picture
-
-
-Processing
-- calculate the diffence in pixels between the exisiting cell and the uploaded picture
-- if picture overlaps the boundaries of the cell present an interface to crop the picture
-- if picture is the best fit upload the picture to the cell
-
-
-Output
-
--cell is populated with the picture
-
-
-
 <!--
 ### Why do we write software?
 
