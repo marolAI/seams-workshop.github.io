@@ -35,7 +35,7 @@ For part 3, tell them you are going to add another complication.  They may "refa
 
 <b>2. The plan as a series of implementation steps </b>
 ```
-Step a. Build interface with option to upload a picture on a separate interface(admin)  
+Step a. Build interface with an option to upload a picture on a separate interface(admin)  
         and display a photograph on a different page.
 step b. Get the picture.
 Step c. Calculate the difference in dimensions between the uploaded picture and the   
