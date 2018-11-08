@@ -47,7 +47,7 @@ Step e. Cell is populated with the picture
 
 
 ```
-## Mild Complication
+<b>Mild Complication</b>
 More text in adjacent cells results in an empty space area around the picture.
 
 
