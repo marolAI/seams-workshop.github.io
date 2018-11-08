@@ -45,11 +45,11 @@ Step d. If the picture uploaded best fits the cell then the original picture wil
         uploaded, if not the crop interface will be displayed.
 Step e. Cell is populated with the picture
 
+
+```
 ## Mild Complication
 More text in adjacent cells results in an empty space area around the picture.
 
-
-```
 
 
 <!--
