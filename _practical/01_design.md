@@ -48,6 +48,13 @@ Step e. Cell is populated with the picture
 
 
 ```
+```{r}
+library(DiagrammeR)
+mermaid("
+graph LR
+    A-->B
+")
+```
 
 <!--
 ### Why do we write software?
