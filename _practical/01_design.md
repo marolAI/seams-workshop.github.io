@@ -20,17 +20,17 @@ For part 3, tell them you are going to add another complication.  They may "refa
   
 <b>1. Design  diagram/ process flow in high level pseudo-code:</b>
 ```
-Upload profile picture
-            |
-if profile picture fits specified cell
-            |
-then it will be uploaded and displayed
-            |
-if it does not meet the dimensions specified
-            |
-then a crop interface will be generated to adjust the picture for a best fit
-            |
-Picture displayed            
+step a. Upload profile picture
+            
+step b. if profile picture fits specified cell
+        
+step c. then it will be uploaded and displayed
+            
+step d. if it does not meet the dimensions specified
+            
+step e. then a crop interface will be generated to adjust the picture for a best fit
+            
+step f. Picture displayed            
 
 ```
 
