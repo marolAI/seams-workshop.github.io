@@ -21,7 +21,7 @@ For part 3, tell them you are going to add another complication.  They may "refa
 
                 step a. Upload profile picture
            
-<b>if</b>       step b. profile picture fits the specified  cell
+<b><i>if      step b. profile picture fits the specified  cell </b></i>
       
                 step c. then it will be uploaded and displayed
             
