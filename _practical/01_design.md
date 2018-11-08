@@ -48,7 +48,7 @@ Step e. Cell is populated with the picture
 
 
 ```
-A-->B
+
 <!--
 ### Why do we write software?
 
