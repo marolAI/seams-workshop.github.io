@@ -21,15 +21,15 @@ For part 3, tell them you are going to add another complication.  They may "refa
 
                 step a. Upload profile picture
            
-<b> if </b>     step b. profile picture fits specified cell
+<b> if </b>     step b. profile picture fits the specified  cell
       
-                step c. then it will be uploaded and displayed
+                 step c. then it will be uploaded and displayed
             
-                step d. it does not meet the dimensions specified
+    <b>else </b> step d. it does not meet the dimensions specified
             
- <b>else </b>   step e. then a crop interface will be generated to adjust the picture for a best fit
+                 step e. then a crop interface will be generated to adjust the picture for a best fit
             
-                step f. Picture displayed            
+                 step f. Picture displayed            
 
 
 
