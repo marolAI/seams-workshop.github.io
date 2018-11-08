@@ -2,14 +2,44 @@
 slug: workspace
 title: Workspace Organization & Tools
 ---
+# Overview: guiding principles 
+
+Our goal as scientists is to create useful knowledge (*useful* may be defined on a very long time scale).  Knowledge doesn't exist if people don't have access to it, and it's not useful if they can't engage with it.
+
+## Think in Terms of the **Product**
+
+We want "software" (*e.g.*, the combination of scripts, analysis code, data
+management, reference management, external tools devoted to addressing a
+particular research question / area) that is:
+
+ - easy to use correctly
+ - easy to verify (*i.e.*, does what intends) and validate (*i.e.*, produces something
+   that can be compared to empirical measurements)
+ - easy to know when using incorrectly, and what to change to use correctly
+ - easy to understand, both as a whole and individual parts
+ - plausible to deploy in other settings (*e.g.*, distributed computation, GUI tool for non-technical users)
+ - generalizable (*e.g.*, different dataset / context)
+
+## Think in Terms of the **Process**
+
+motivate remaining points in terms of how a scientist works.  Organization should
+support:
+
+ - shifting data (new data, updates to existing data, changes to schema)
+ - effective collaboration with people in different roles (*e.g.*, theoreticians, modelers, field scientists)
+ - portability
+ - publication (results *as well as recipe*)
+ - subsequent extension
+
+# Topics
 
 ## Managing resources 
 
-Stages in the data life-cycle
-* Backup.  Safeguard against accidental loss or corruption.  
-* Organization.   
+Stages and activities in the data life-cycle
+* Storage and backup.  Safeguard against accidental loss or corruption.  
+* Organization.   see below. 
 * File encodings
-* Documentation.  separate section. 
+* Describe and document.  see below. 
 * Sharing and re-use
 * Preservation
 
@@ -105,40 +135,4 @@ Some command line cheat sheets:
 --> 
 
 
-<!-- ## Publish!
-
-The our goal as scientists is to create useful knowledge (*useful* may be defined on a very long time scale).  Knowledge doesn't exist if people don't have access to it, and it's not useful if they can't engage with it.
-
-There are a variety of tools that support co-mingling your code with the scientific report it supports:
-
- - general discussion of literate programming
- - rweave
- - jupyter
-
-## Finally: Think in Terms of the **Product**
-
-We want "software" (*e.g.*, the combination of scripts, analysis code, data
-management, reference management, external tools devoted to addressing a
-particular research question / area) that is:
-
- - easy to use correctly
- - easy to verify (*i.e.*, does what intends) and validate (*i.e.*, produces something
-   that can be compared to empirical measurements)
- - easy to know when using incorrectly, and what to change to use correctly
- - easy to understand, both as a whole and individual parts
- - plausible to deploy in other settings (*e.g.*, distributed computation, GUI tool for non-technical users)
- - generalizable (*e.g.*, different dataset / context)
-
-## Think in Terms of the **Process**
-
-motivate remaining points in terms of how a scientist works.  Organization should
-support:
-
- - shifting data (new data, updates to existing data, changes to schema)
- - effective collaboration with people in different roles (*e.g.*, theoreticians, modelers, field scientists)
- - portability
- - publication (results *as well as recipe*)
- - subsequent extension
- 
- -->
 
