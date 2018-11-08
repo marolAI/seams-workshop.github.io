@@ -18,7 +18,7 @@ For part 3, tell them you are going to add another complication.  They may "refa
   spaces bordering the picture inside the cell.
   
 <b>1. Design  diagram/ process flow in high level pseudo-code:</b>
-```
+
 step a. Upload profile picture
            
 <b> if </b> step b. profile picture fits specified cell
@@ -31,7 +31,7 @@ step e. then a crop interface will be generated to adjust the picture for a best
             
 step f. Picture displayed            
 
-```
+
 
 <b>2. The plan as a series of implementation steps </b>
 ```
