@@ -2,8 +2,26 @@
 slug: workspace
 title: Workspace Organization & Tools
 ---
+Dwnload a zipped collection of files:
+- A single python source file with a bunch of code, perhaps solving several different project euler problems
+- Input files that the code uses
+- Output files that the code generates
 
-TBD!
+Students' TODO: clean up the mess
+
+Suggested steps:
+0. Create a repository.  Put something?  everything? in it.  Set up the repo locally and on gitlab.
+1. What problems do you see?  Create issues on gitlab.
+2. Begin solving the organizational problems, committing with each solution and marking the corresponding issues as solved.
+
+Things to consider doing:
+- Create a directory hierarchy that reflects the relationships between the files in the projects.
+- Improve documentation
+- Refactor the source file into multiple files so that each file either solves a specific problem, or is a python module to be loaded as needed
+- Add/remove files from repo
+- Find out how tests should be written in Python, and write some
+
+
 
 <!--
 In this practical, we will apply ideas from the morning discussing.  Particularly, we will create workspaces for the rest of the afternoon practicals ([see the full list here](practicals/)) by:
