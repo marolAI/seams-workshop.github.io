@@ -21,6 +21,7 @@ So you want to parallelize . . .
 - [Multithreading is an approach to parallelization, but doesn't always result in parallelization](https://stackoverflow.com/questions/806499/threading-vs-parallelism-how-do-they-differ)
 - [An overview of cloud computing (not a how-to)](https://www.dialogic.com/~/media/products/docs/whitepapers/12023-cloud-computing-wp.pdf)
 - [MPI: tutorials for how to parallelize in hardcore mode, generally for compiled languages](http://mpitutorial.com/tutorials/)
+- Map-Reduce, Spread-Gather - some sort of link to embarassingly parallel problem framings
 - [Difference between CPU and GPU computing](https://medium.com/altumea/gpu-vs-cpu-computing-what-to-choose-a9788a2370c4)
 - [GPU computing, it's strengths and limitations](http://lorenabarba.com/gpuatbu/Program_files/Cruz_gpuComputing09.pdf)
 
