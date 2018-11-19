@@ -14,16 +14,17 @@ affiliation:
     org: Some Company
     position: Junior Dev.
 ---
-This is a template for some brief biographical information.  The format is called YAML; see URL for more information about formatting requirements.  The directions below explain each variable.
+This is a template for some brief biographical information.  The format is called YAML; see [this URL](http://yaml.org/spec/) for more information about formatting requirements.  The directions below explain each variable.
 
 # Steps:
 
- 1. Create a new branch.
- 2. Duplicate this file, in this folder.
- 3. Rename the file to your last name.
- 4. Fill in the elements in the YAML block above per directions below.
- 5. Create a merge request for your branch into the master branch.
- 6. If there are any comments from the faculty indicating you need to make additional changes, make those changes.
+ 1. *Fork* the repository
+ 2. Make a *clone* to edit on your local machine, or access via the gitlab WebIDE
+ 3. Duplicate this file, in this folder (local machine, just use copy or cp; if using WebIDE, click on the vertical dots that appear when you hover over `_participants` folder to the left and create a new file, then copy-paste this files contents).
+ 4. Make sure the new file name corresponds to your last name (i.e., family name or surname).
+ 5. Fill in the elements in the YAML block above per directions below.
+ 6. Create a merge request for your branch into the master branch.
+ 7. If there are any comments from the faculty indicating you need to make additional changes, make those changes in your fork.
 
 # Required:
 
