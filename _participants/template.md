@@ -1,18 +1,18 @@
 ---
-fullname: Firstname Lastname
-goby: Personalname
-img: yourface.jpg
+fullname: Joseph Sefara
+goby: Joseph
+img: sefara3.jpg
 links:
   -
-    title: some link
-    url: https://to.your.stuff/
+    title: My blog
+    url: https://speechtech.co.za
   -
-    title: another
-    url: https://link.to.things/
+    title: My Linkedin
+    url: https://www.linkedin.com/in/josephsefara/
 affiliation:
   -
-    org: Some Company
-    position: Junior Dev.
+    org: CSIR
+    position: Junior Data Engineer
 ---
 This is a template for some brief biographical information.  The format is called YAML; see [this URL](http://yaml.org/spec/) for more information about formatting requirements.  The directions below explain each variable.
 
