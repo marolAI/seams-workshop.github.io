@@ -12,7 +12,7 @@ this update would have been easier.
 
 For part 3, tell them you are going to add another complication.  They may "refactor" their (1) and (2) answers based on (3) first.  Once they do that (or not), give them another complication and ask them to update (1) and (2) again, and do another (3) with what improvements they might have made.
 
-<b> Example 1 Intermittently check how long a program has been running and offer the user a chance to cancel tasks that are taking too long. </b> 
+<b> Example A. Intermittently check how long a program has been running and offer the user a chance to cancel tasks that are taking too long. </b> 
 
 <b>1. Design  diagram/ process flow in high level pseudo-code:</b>
 
@@ -22,7 +22,7 @@ For part 3, tell them you are going to add another complication.  They may "refa
 
 <b>Mild Complication</b>  
 
-<b>Example 2 of a posed problem in a web application environment</b>  
+<b>Example B of a posed problem in a web application environment</b>  
   You have uploaded profile pictures of people, all with similar dimensions (pixels) to fit onto a cell on a page but some leave empty  
   spaces bordering the picture inside the cell.
   
