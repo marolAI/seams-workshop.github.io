@@ -15,7 +15,9 @@ For part 3, tell them you are going to add another complication.  They may "refa
 <b> Example A. Intermittently check how long a program has been running and offer the user a chance to cancel tasks that are taking too long. </b> 
 
 <b>1. Design  diagram/ process flow in high level pseudo-code:</b>
+step a. Running program
 
+steb b. 
 
 <b>2. The plan as a series of implementation steps </b>
 
