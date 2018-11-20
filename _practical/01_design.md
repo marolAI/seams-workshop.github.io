@@ -14,6 +14,13 @@ For part 3, tell them you are going to add another complication.  They may "refa
 
 <b> Example 1 Intermittently check how long a program has been running and offer the user a chance to cancel tasks that are taking too long. </b> 
 
+<b>1. Design  diagram/ process flow in high level pseudo-code:</b>
+
+
+<b>2. The plan as a series of implementation steps </b>
+
+
+<b>Mild Complication</b>  
 
 <b>Example 2 of a posed problem in a web application environment</b>  
   You have uploaded profile pictures of people, all with similar dimensions (pixels) to fit onto a cell on a page but some leave empty  
