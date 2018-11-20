@@ -20,7 +20,7 @@ For part 3, tell them you are going to add another complication.  They may "refa
 <b>2. The plan as a series of implementation steps </b>
 
 
-<b>Mild Complication</b>  
+<b>3. Mild Complication</b>  
 
 <b>Example B of a posed problem in a web application environment</b>  
   You have uploaded profile pictures of people, all with similar dimensions (pixels) to fit onto a cell on a page but some leave empty  
@@ -56,7 +56,7 @@ Step e. Cell is populated with the picture
 
 
 ```
-<b>Mild Complication</b>  
+<b>3. Mild Complication</b>  
 More text in adjacent cells results in an empty space area around the picture.
 
 
