@@ -155,15 +155,6 @@ Input
 -get the picture
 
 
-Processing
-- calculate the diffence in pixels between the exisiting cell and the uploaded picture
-- if picture overlaps the boundaries of the cell present an interface to crop the picture
-- if picture is the best fit upload the picture to the cell
-
-
-Output
-
--cell is populated with the picture
 
 
 
