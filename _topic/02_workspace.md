@@ -86,12 +86,12 @@ Your future self is probably the top stakeholder.  Think about designing product
 
 * If you can't keep everything in one directory, maintain an up-to-date Project Map document that points to all resources.  Think of your project as a network of resources.  It needs to have a clearly identifiable **root** from which you can reach everything else-- no orphans.  
 * Use a directory hierarchy for major dimensions (e.g., studies, data types), and file names for minor dimensions (e.g., replicates, dates).  
-* Use "Archive" subdirs to keep your project tidy (leave them out of a distributed package)
-* Use “README.txt” files to explain major directories
-* Apply a consistent model, e.g., CamelCase.txt, kebab-case.txt, snake_case.txt.
-* Make names from letters, numbers, and dot (.), dash (-) or underscore (_).  Other characters can hinder automated processing.
-* Be concise, e.g., "data-table" is redundant in ir-expt01-sample028-data-table.csv.
-* Make sure dates and numbers sort as desired. Use ISO 8601 (YYYYMMDD).  Pad counting numbers with leading zeros: 2 sorts after 12, but 02 sorts before 12. 
+   * Use "Archive" subdirs to keep your project tidy (leave them out of a distributed package)
+   * Use “README.txt” files to explain major directories
+   * Apply a consistent model, e.g., CamelCase.txt, kebab-case.txt, snake_case.txt.
+   * Make names from letters, numbers, and dot (.), dash (-) or underscore (_).  Other characters can hinder automated processing.
+   * Be concise, e.g., "data-table" is redundant in ir-expt01-sample028-data-table.csv.
+   * Make sure dates and numbers sort as desired. Use ISO 8601 (YYYYMMDD).  Pad counting numbers with leading zeros: 2 sorts after 12, but 02 sorts before 12. 
 * Create a file list (manifest) and refer to it in your top-level README file 
    * `ls -AFR1 path_to_my_dir > MANIFEST`
    * `tar -cv path_to_my_dir 2>&1 >/dev/null | sort | sed 's/^a //' > MANIFEST`
