@@ -118,6 +118,19 @@ References
 
 ## Using tests
 
+What do you test?  Focus first on functional requirements.  This applies both to low-level testing and to high-level testing.  Your software (and its functions or methods) is supposed to generate some useful output from valid inputs.  Make sure it does.  Then you can start testing for other things, like how well it handles exceptions such as invalid inputs.  
+
+Some concepts 
+* "regression testing" means checking that the software still does what it did previously
+* unit tests focus on individual functions or methods
+* integration tests depend on multiple functions or methods working together
+
+References
+* [20 practical testing tips](https://www.softwaretestinghelp.com/practical-software-testing-tips-to-test-any-application/)
+* wikipedia on [software testing](https://en.wikipedia.org/wiki/Software_testing)
+* R unit-testing library [testthat](https://testthat.r-lib.org/)
+* Python [unittest](https://docs.python.org/3/library/unittest.html)
+
 ## Packaging resources for distribution
 
 * [General Discussion for R Packages](http://r-pkgs.had.co.nz/)
