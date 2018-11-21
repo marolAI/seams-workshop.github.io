@@ -27,7 +27,7 @@ Organization should support:
  - publication (results *as well as recipe*)
  - subsequent extension
 
-## Reference
+## Resources
 
 * [DataONE primer on data management](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf) (PDF)
 * Wilson, et al. [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
@@ -45,7 +45,7 @@ Stages and activities in the data life-cycle
 * Sharing and re-use
 * Preservation
 
-Some information resources
+**Resources**
  - [FAIR data principles](https://www.force11.org/group/fairgroup/fairprinciples)
  - [DataONE primer on data management](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf) (PDF)
  - [Introduction to Open Science: Why data versioning and data care practices are key for science and social science.](http://blogs.lse.ac.uk/impactofsocialsciences/2015/02/09/data-versioning-open-science/)
@@ -63,6 +63,7 @@ Some information resources
 
 ## Using version Control
 
+**Resources**
  - [SO: Why Should I Use Version Control?](http://stackoverflow.com/questions/1408450/why-should-i-use-version-control) and [Academia SE: Why Use VC for Writing a Paper?](http://academia.stackexchange.com/questions/5277/why-use-version-control-systems-for-writing-a-paper)
  - [Biomed Central Blog](http://blogs.biomedcentral.com/bmcblog/2013/02/28/version-control-for-scientific-research/) - several links to other publications on value of version control in science
  - Git Tutorials:
@@ -70,7 +71,9 @@ Some information resources
    * [visualization](http://pcottle.github.io/learnGitBranching/)
    * [undoing](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
    * [writing good commit messages](http://chris.beams.io/posts/git-commit/)
+<!-- not needed
    * [daunting book](https://progit.org/)
+--> 
 
 Protocol questions
 * what goes under version control, and what doesn't
@@ -93,7 +96,7 @@ Your future self is probably the top stakeholder.  Think about designing product
    * `ls -AFR1 path_to_my_dir > MANIFEST`
    * `tar -cv path_to_my_dir 2>&1 >/dev/null | sort | sed 's/^a //' > MANIFEST`
 
-Links
+**Resources**
 * Dryad's instructions to [Name files and directories in a consistent and descriptive manner](https://datadryad.org/pages/reusabilityBestPractices#filenames)
 * Dryad's instructions to [Organize files in a logical schemaf](https://datadryad.org/pages/reusabilityBestPractices#organize)
 
@@ -115,7 +118,7 @@ Some of the key concepts are
 * tagging and grouping.  Issues can be tagged ("bug", "feature request") and grouped into sets corresponding to milestones or sprints.  
 * prioritization.  A team may get together regularly to review open tickets and prioritize them for action.  
 
-References
+**Resources**
 * Wikipedia [issue tracking system](https://en.wikipedia.org/wiki/Issue_tracking_system)
 * [Comparison of issue-tracking systems](https://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems)
 
@@ -128,7 +131,7 @@ Some concepts
 * unit tests focus on individual functions or methods
 * integration tests depend on multiple functions or methods working together
 
-References
+**Resources**
 * [20 practical testing tips](https://www.softwaretestinghelp.com/practical-software-testing-tips-to-test-any-application/)
 * wikipedia on [software testing](https://en.wikipedia.org/wiki/Software_testing)
 * R unit-testing library [testthat](https://testthat.r-lib.org/)
@@ -136,13 +139,14 @@ References
 
 ## Packaging resources for distribution
 
+**Resources**
 * [General Discussion for R Packages](http://r-pkgs.had.co.nz/)
 * [Python Project Template Guide](http://learnpythonthehardway.org/book/ex46.html) - challenge: write a bash script to automate this approach
 * [...or try any of several pre-packaged options](https://www.google.com/search?q=python%20package%20template)
 
 ## Documenting code
 
-Resources
+**Resources**
 * [a beginner's guide to writing docs](https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
 * [Sphinx](http://www.sphinx-doc.org/en/master/)
 * in-line documentation
