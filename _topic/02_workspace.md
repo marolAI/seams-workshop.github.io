@@ -29,7 +29,8 @@ Organization should support:
 
 ## Reference
 
-[DataONE primer on data management](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf) (PDF)
+* [DataONE primer on data management](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf) (PDF)
+* Wilson, et al. [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
 
 # Topics
 
@@ -95,7 +96,25 @@ Links
 
 ## Issue tracking 
 
-This needs several links to resources on issue tracking.  
+GitHub.com and GitLab.com both offer built-in issue tracking systems.  
+
+However, issue tracking systems are not just for software.  Customer service departments use them to record complaints and other issues, and to track how those issues are addressed.  Many people use issue trackers such as Trello as personal productivity tools.  
+
+Some of the key concepts are 
+* opening and closing.  An issue or ticket is "open" until it is resolved, then it is "closed".  Often there is a flow for tickets with 4 or 5 stages
+   * backlog.  low priority or unprioritized issues, e.g., something we might do some day
+   * ready.  issues prioritized for action
+   * in progress.  a developer is working on this
+   * needs review.  developer is done, now look at results and decide whether to close or put back in "ready"
+   * closed.  this issue is done.  open new tickets for any separate tasks provoked by this issue.  
+* assignment.  Issues can be assigned to one or more persons.  A programmer who completes work on a ticket may assign it to a second person for review.  
+* monitoring and notification.  Action on issues can be monitored with automatic notification.  At the level of the whole project, you can monitor how many issues are closed each month. 
+* tagging and grouping.  Issues can be tagged ("bug", "feature request") and grouped into sets corresponding to milestones or sprints.  
+* prioritization.  A team may get together regularly to review open tickets and prioritize them for action.  
+
+References
+* Wikipedia [issue tracking system](https://en.wikipedia.org/wiki/Issue_tracking_system)
+* [Comparison of issue-tracking systems](https://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems)
 
 ## Using tests
 
