@@ -27,9 +27,13 @@ Organization should support:
  - publication (results *as well as recipe*)
  - subsequent extension
 
+## Reference
+
+[DataONE primer on data management](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf) (PDF)
+
 # Topics
 
-## Managing resources 
+## Plan to manage your resources 
 
 Stages and activities in the data life-cycle
 * Storage and backup.  Safeguard against accidental loss or corruption.  
@@ -40,6 +44,9 @@ Stages and activities in the data life-cycle
 * Preservation
 
 Some information resources
+ - [FAIR data principles](https://www.force11.org/group/fairgroup/fairprinciples)
+ - [DataONE primer on data management](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf) (PDF)
+ - [Introduction to Open Science: Why data versioning and data care practices are key for science and social science.](http://blogs.lse.ac.uk/impactofsocialsciences/2015/02/09/data-versioning-open-science/)
  - [Data Management Discussion](http://mariovalle.name/sdm/scientific-data-management.html)
  - [Boston University Discussion](http://www.bu.edu/datamanagement/outline/elements/) - good surrounding context discussion as well
  - [Discussion of Long vs Short Form Data](http://seananderson.ca/2013/10/19/reshape.html), and from `reshape2` package author:
@@ -68,7 +75,23 @@ Protocol questions
 
 ## Organizing project resources 
 
-This needs several links to resources on organization.  Think about designing products that will be distributed, either to your future self or to others.  Dryad data repo guidelines.  
+Your future self is probably the top stakeholder.  Think about designing products that will be distributed, either to your future self or to others.  
+
+* If you can't keep everything in one directory, maintain an up-to-date Project Map document that points to all resources. 
+* Use a directory hierarchy for major dimensions (e.g., studies, data types), and file names for minor dimensions (e.g., replicates, dates).  
+* Use "Archive" subdirs to keep your project tidy (leave them out of a distributed package)
+* Use “README.txt” files to explain major directories
+* Apply a consistent model, e.g., CamelCase.txt, kebab-case.txt, snake_case.txt.
+* Make names from letters, numbers, and dot (.), dash (-) or underscore (_).  Other characters can hinder automated processing.
+* Be concise, e.g., "data-table" is redundant in ir-expt01-sample028-data-table.csv.
+* Make sure dates and numbers sort as desired. Use ISO 8601 (YYYYMMDD).  Pad counting numbers with leading zeros: 2 sorts after 12, but 02 sorts before 12. 
+* Create a file list (manifest) and refer to it in your top-level README file 
+   * `ls -AFR1 path_to_my_dir > MANIFEST`
+   * `tar -cv path_to_my_dir 2>&1 >/dev/null | sort | sed 's/^a //' > MANIFEST`
+
+Links
+* Dryad's instructions to [Name files and directories in a consistent and descriptive manner](https://datadryad.org/pages/reusabilityBestPractices#filenames)
+* Dryad's instructions to [Organize files in a logical schemaf](https://datadryad.org/pages/reusabilityBestPractices#organize)
 
 ## Issue tracking 
 
