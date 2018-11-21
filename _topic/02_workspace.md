@@ -31,6 +31,7 @@ Organization should support:
 
 * [DataONE primer on data management](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf) (PDF)
 * Wilson, et al. [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
+* [Ten Simple Rules for Reproducible Computational Research](http://dx.doi.org/10.1371/journal.pcbi.1003285)
 
 # Topics
 
@@ -49,19 +50,21 @@ Some information resources
  - [DataONE primer on data management](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf) (PDF)
  - [Introduction to Open Science: Why data versioning and data care practices are key for science and social science.](http://blogs.lse.ac.uk/impactofsocialsciences/2015/02/09/data-versioning-open-science/)
  - [Data Management Discussion](http://mariovalle.name/sdm/scientific-data-management.html)
- - [Boston University Discussion](http://www.bu.edu/datamanagement/outline/elements/) - good surrounding context discussion as well
+
+<!-- reshape package, not relevant here 
  - [Discussion of Long vs Short Form Data](http://seananderson.ca/2013/10/19/reshape.html), and from `reshape2` package author:
  - [J. Stat. Soft. article discussing](http://www.jstatsoft.org/v21/i12)
+-->
+
+<!-- belongs in IO section 
  - [SO: Why Use SQL Database?](http://stackoverflow.com/questions/2900324/why-use-sql-database)
+--> 
  - [UK Data Archive](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf) - good general read, but certain specific sections pertinent to how to organize / save yours
 
 ## Using version Control
 
  - [SO: Why Should I Use Version Control?](http://stackoverflow.com/questions/1408450/why-should-i-use-version-control) and [Academia SE: Why Use VC for Writing a Paper?](http://academia.stackexchange.com/questions/5277/why-use-version-control-systems-for-writing-a-paper)
- - [Biomed Central Blog](http://blogs.biomedcentral.com/bmcblog/2013/02/28/version-control-for-scientific-research/) - several links to other publications on value of version control in science, including:
- - [ArXiV description](http://arxiv.org/pdf/1210.0530.pdf)
- - [PLoS Computational Biology](http://dx.doi.org/10.1371/journal.pcbi.1003285)
- - [Assorted Reddit Discussions](http://www.reddit.com/r/programming/search?q=why+version+control&restrict_sr=on)
+ - [Biomed Central Blog](http://blogs.biomedcentral.com/bmcblog/2013/02/28/version-control-for-scientific-research/) - several links to other publications on value of version control in science
  - Git Tutorials:
    * [with GitHub](https://try.github.com/)
    * [visualization](http://pcottle.github.io/learnGitBranching/)
@@ -78,7 +81,7 @@ Protocol questions
 
 Your future self is probably the top stakeholder.  Think about designing products that will be distributed, either to your future self or to others.  
 
-* If you can't keep everything in one directory, maintain an up-to-date Project Map document that points to all resources. 
+* If you can't keep everything in one directory, maintain an up-to-date Project Map document that points to all resources.  Think of your project as a network of resources.  It needs to have a clearly identifiable **root** from which you can reach everything else-- no orphans.  
 * Use a directory hierarchy for major dimensions (e.g., studies, data types), and file names for minor dimensions (e.g., replicates, dates).  
 * Use "Archive" subdirs to keep your project tidy (leave them out of a distributed package)
 * Use “README.txt” files to explain major directories
