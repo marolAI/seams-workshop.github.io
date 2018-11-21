@@ -139,6 +139,16 @@ References
 
 ## Documenting code
 
+Resources
+* [a beginner's guide to writing docs](https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
+* [Sphinx](http://www.sphinx-doc.org/en/master/)
+* in-line documentation
+   * [Doxygen](https://en.wikipedia.org/wiki/Doxygen) (for C, C++, Java, Python, some other languages)
+   * Python in-line [DocStrings explanation](https://www.electricmonk.nl/log/2008/06/22/why-python-rocks-i-inline-documentation/
+) 
+   * [Writing documentation with ROxygen2](http://kbroman.org/pkg_primer/pages/docs.html) (R in-line documentation)
+   * Perl's [POD (plain old documentation)](https://perldoc.perl.org/perlpod.html).  Always remember with POD that you have to put blank lines before and after each command. 
+* why [writing better code reduces the need for commenting](https://medium.com/@andrewgoldis/how-to-document-source-code-responsibly-2b2f303aa525)
 
 ## IDEs and other tools
 
