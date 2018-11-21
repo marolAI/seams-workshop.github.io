@@ -8,13 +8,10 @@ Our goal as scientists is to create useful knowledge (*useful* may be defined on
 
 ## Think in Terms of the **Product**
 
-We want "software" (*e.g.*, the combination of scripts, analysis code, data
-management, reference management, external tools devoted to addressing a
-particular research question / area) that is:
+We want "software" (*e.g.*, the combination of scripts, analysis code, data management, reference management, external tools devoted to addressing a particular research question or area) that is:
 
  - easy to use correctly
- - easy to verify (*i.e.*, does what intends) and validate (*i.e.*, produces something
-   that can be compared to empirical measurements)
+ - easy to verify (*i.e.*, does what intends) and validate (*i.e.*, clear expectation of output for given inputs)
  - easy to know when using incorrectly, and what to change to use correctly
  - easy to understand, both as a whole and individual parts
  - plausible to deploy in other settings (*e.g.*, distributed computation, GUI tool for non-technical users)
@@ -22,8 +19,7 @@ particular research question / area) that is:
 
 ## Think in Terms of the **Process**
 
-motivate remaining points in terms of how a scientist works.  Organization should
-support:
+Organization should support:
 
  - shifting data (new data, updates to existing data, changes to schema)
  - effective collaboration with people in different roles (*e.g.*, theoreticians, modelers, field scientists)
@@ -51,7 +47,7 @@ Some information resources
  - [SO: Why Use SQL Database?](http://stackoverflow.com/questions/2900324/why-use-sql-database)
  - [UK Data Archive](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf) - good general read, but certain specific sections pertinent to how to organize / save yours
 
-## Version Control
+## Using version Control
 
  - [SO: Why Should I Use Version Control?](http://stackoverflow.com/questions/1408450/why-should-i-use-version-control) and [Academia SE: Why Use VC for Writing a Paper?](http://academia.stackexchange.com/questions/5277/why-use-version-control-systems-for-writing-a-paper)
  - [Biomed Central Blog](http://blogs.biomedcentral.com/bmcblog/2013/02/28/version-control-for-scientific-research/) - several links to other publications on value of version control in science, including:
@@ -78,14 +74,18 @@ This needs several links to resources on organization.  Think about designing pr
 
 This needs several links to resources on issue tracking.  
 
+## Using tests
 
-## Packaging for distribution
+## Packaging resources for distribution
 
 * [General Discussion for R Packages](http://r-pkgs.had.co.nz/)
 * [Python Project Template Guide](http://learnpythonthehardway.org/book/ex46.html) - challenge: write a bash script to automate this approach
 * [...or try any of several pre-packaged options](https://www.google.com/search?q=python%20package%20template)
 
-## IDE Organization Tools
+## Documenting code
+
+
+## IDEs and other tools
 
  - [What is an IDE](http://en.wikipedia.org/wiki/Integrated_development_environment) and [why use one](http://programmers.stackexchange.com/questions/20950/what-justifies-the-use-of-an-ide-versus-a-standard-editor) [(or not)](http://blog.bittersweetryan.com/2012/02/great-ide-vs-text-editor-debate-why-i.html)?
  - [Broad Comparison of IDE](http://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments) - what seems to be important?
@@ -98,7 +98,7 @@ How are you going to share work?  Communicate?  Keep records of decisions?  Trac
 
 ### Technologies 
 
-Decide what **types** of communication and collaboration technology facilitate the success of your project.  Choose (ideally) just one tool of each type.  We will address version control separately below.  
+Decide what **types** of communication and collaboration technology facilitate the success of your project.  Choose (ideally) just one tool of each type.  
 
 1. communication and collaboration technology types
    * real-time communication by phone, email, or chat
@@ -133,6 +133,8 @@ Some command line cheat sheets:
  - [one](http://cli.learncodethehardway.org/bash_cheat_sheet.pdf)
  - [another](http://www.git-tower.com/blog/command-line-cheat-sheet/)
 --> 
+
+
 
 
 
