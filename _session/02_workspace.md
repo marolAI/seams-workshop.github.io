@@ -3,7 +3,17 @@ slug: workspace
 title: Workspace Organization & Tools
 ---
 
-for now, see the [slide deck on drive](https://docs.google.com/presentation/d/1RuONjswdcDhIMKZtNo21zrOcDjJbFrzKzX6pEC-1rko/edit#slide=id.g435be3fd74_0_26)
+See the [slide deck on drive](https://docs.google.com/presentation/d/1RuONjswdcDhIMKZtNo21zrOcDjJbFrzKzX6pEC-1rko/edit#slide=id.g435be3fd74_0_26)
+
+For each of 9 topics, there is some guiding information (e.g., a list of different ways to document code), and some discussion questions.  
+
+* Sometimes they are both squeezed onto the same slide.  
+* Sometimes there is a discussion prompt first, then suggestions or info later.  
+* Sometimes, there is some info, then discussion questions.  
+
+There is not enough time to have an extensive discussion of all 9 topics.  
+
+So, pick 3 or 4 topics for in-depth discussions, and move quickly through the other 5 or 6.  Perhaps the instructor can ask the students which topics are of most interest. 
 
 <!--
 Why organize?  What's the benefit?  What's the cost?  How do you organize?
