@@ -50,11 +50,11 @@ Step e. Cell is populated with the picture
 <b>3. Mild Complication</b>  
 More text in adjacent cells results in an empty space area around the picture.
 
-<b> Example B.</b>   
-Intermittently check how long a program has been running and offer the user a chance to cancel tasks that are taking too long.   
+<b> Example B.</b>  
+Intermittently check how long a program has been running and offer the user a chance to cancel tasks that are taking too long.     
 
-<b>1. Design  diagram/ process flow in high level pseudo-code:</b>
-step a. Running program
+<b>1. Design  diagram/ process flow in high level pseudo-code:</b>  
+step a. Running program  
 
 steb b. 
 
