@@ -1,0 +1,17 @@
+fullname: Joseph Sefara
+goby: Joseph
+img: sefara3.jpg
+links:
+  -
+    title: My Work
+    url: https://gitlab.com/sefaratj/
+  -
+    title: My Linkedin
+    url: https://www.linkedin.com/in/josephsefara/
+  -
+    title: My Blog
+    url: https://www.speechtech.co.za
+affiliation:
+  -
+    org: CSIR
+    position: Junior Data Engineer
