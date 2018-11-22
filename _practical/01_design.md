@@ -54,13 +54,27 @@ More text in adjacent cells results in an empty space area around the picture.
 Intermittently check how long a program has been running and offer the user a chance to cancel tasks that are taking too long.     
 
 <b>1. Design  diagram/ process flow in high level pseudo-code:</b>  
-step a. Check Running programs  
 
-steb b.  Program check if running time is >= 5 minutes
+step a. Start program check  
 
-step c. 
+steb b.  if runtime is >= 5 minutes  
+
+step c.   Enter 0 (Cancel the job)
+
+        else:  
+        
+step d.   Ender 1  (to let the job run)
+
 
 <b>2. The plan as a series of implementation steps </b>
+
+Step a. Start the program which will search for a job running for more than 5 minutes
+
+Step b. List the job with two options (0 to cancel and 1 to let the job continue running)
+
+Step c. if option 0 is selected the job will quit
+
+Step d. if option 1 is selected the job will continue to run. 
 
 
 <b>3. Mild Complication</b>  
