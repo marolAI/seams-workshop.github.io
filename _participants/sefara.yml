@@ -9,9 +9,12 @@ links:
     title: My Linkedin
     url: https://www.linkedin.com/in/josephsefara/
   -
-    title: My Blog
+    title: My Website
     url: https://www.speechtech.co.za
 affiliation:
   -
-    org: CSIR
+    org: Council for Scientific and Industrial Research
     position: Junior Data Engineer
+  -
+    org: University of Limpopo
+    position: Master's Student
