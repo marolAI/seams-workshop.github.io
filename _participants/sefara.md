@@ -4,8 +4,8 @@ goby: Joseph
 img: sefara.jpg
 links:
   -
-    title: My Work
-    url: https://gitlab.com/sefaratj/
+    title: My Repo
+    url: https://github.com/sefaratj/
   -
     title: My Linkedin
     url: https://www.linkedin.com/in/josephsefara/
