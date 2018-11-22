@@ -1,7 +1,7 @@
 ---
 fullname: Joseph Sefara
 goby: Joseph
-img: sefara3.jpg
+img: sefara.jpg
 links:
   -
     title: My Work
