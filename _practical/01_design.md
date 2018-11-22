@@ -12,19 +12,8 @@ this update would have been easier.
 
 For part 3, tell them you are going to add another complication.  They may "refactor" their (1) and (2) answers based on (3) first.  Once they do that (or not), give them another complication and ask them to update (1) and (2) again, and do another (3) with what improvements they might have made.
 
-<b> Example A. Intermittently check how long a program has been running and offer the user a chance to cancel tasks that are taking too long. </b> 
 
-<b>1. Design  diagram/ process flow in high level pseudo-code:</b>
-step a. Running program
-
-steb b. 
-
-<b>2. The plan as a series of implementation steps </b>
-
-
-<b>3. Mild Complication</b>  
-
-<b>Example B of a posed problem in a web application environment</b>  
+<b>Example A of a posed problem in a web application environment</b>   
   You have uploaded profile pictures of people, all with similar dimensions (pixels) to fit onto a cell on a page but some leave empty  
   spaces bordering the picture inside the cell.
   
@@ -61,7 +50,18 @@ Step e. Cell is populated with the picture
 <b>3. Mild Complication</b>  
 More text in adjacent cells results in an empty space area around the picture.
 
+<b> Example B.</b>   
+Intermittently check how long a program has been running and offer the user a chance to cancel tasks that are taking too long.   
 
+<b>1. Design  diagram/ process flow in high level pseudo-code:</b>
+step a. Running program
+
+steb b. 
+
+<b>2. The plan as a series of implementation steps </b>
+
+
+<b>3. Mild Complication</b>  
 
 <!--
 ### Why do we write software?
