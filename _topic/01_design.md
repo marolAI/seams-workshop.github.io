@@ -12,11 +12,17 @@ SEAMS is about
 
 These interpretations can guide the way you approach a new research problem--or, put another way, they can help you with *design* and *planning* for the work that will answer a research question.
 
-# Steps of Design in a Scientific Project
+# Steps of Design in a Scientific Programming Project
 
-Science revolves around observations, predictions, and experiments. In some cases, this might mean recording and aggregating data from the field. For other disciplines, the work might entail analyzing data from a complex mechanical setup. In traditional laboratory work, researchers keep a detailed record of experimental steps and observations. These elements of the *process* of doing Science should also be present when programming for research.
+Science revolves around observation, prediction, and experiment. You might apply software to any or all of these steps, and the best practices for those activities translate naturally to any software project.  Collecting field data? You need to make unambiguous observations, deal with incomplete measurements, and perhaps even censor (without discarding!) certain observations, among other concerns. These translate directly into implementation issues for your project: how to represent measurements (with or without units? regularizing categorical data?), differentiating between *nothing observed* and *not observed*, and cleaning transformations from raw data to ready-to-analyze data.
 
-A deliberate approach to **Design** is one way researchers can ensure that their work meets the high standard of Science.
+A deliberate approach to **Design** is one way researchers can ensure that their work meets the high standard of Science.  Overall, design has roughly two parts: *requirements* and *architecture*. These concepts can be thought of as the problem *constraints* and your approach to *satisfying* them.
+
+## Requirements
+
+## Architecture
+
+
 
 # Planning
 
@@ -29,31 +35,9 @@ At its core, most effective planning is about carefully answering six questions,
 # References
 
  - [Wikipedia: Software Design](https://en.wikipedia.org/wiki/Software_design); ignore the arcane vocabulary, and focus on the high level concepts 
+ - [Wikipedia: Software Requirements](https://en.wikipedia.org/wiki/Software_requirements), and most particularly the [specification section](https://en.wikipedia.org/wiki/Software_requirements_specification).  Again, there's some business jargon, but the high level concepts (e.g., user stories) may be applicable to your project.
+ - Assorted other requirements related items: [here](https://www.geeksforgeeks.org/software-engineering-requirements-engineering-process/), [here](http://www.inf.ed.ac.uk/teaching/courses/cs2/LectureNotes/CS2Ah/SoftEng/se02.pdf), [and here (though this one has annoying pop-ups)](https://www.guru99.com/learn-software-requirements-analysis-with-case-study.html)
 <!--
-We select participants already know some basics relative to these topics.  You should already know how to "code" -- *e.g.* how to declare variables and functions, read and write files, and generally arrange that syntax in a way that does useful things -- which are the bricks and mortar of Software Engineering (or wires and resistors, whatever your preferred analogy assembles into products).  Similarly, you should already know a bit about research -- *i.e.*, gathering data, formulating and testing hypotheses 
-
-* * *
-
-
-
-## Research
-
-For this workshop, how do we define research?
-
-## The Lab Notebook
-
-Scientists do not leave critical details to fallible memory: we record our observations, and our method to obtain them, in detail.  The reasons to do so might seem obvious, but are worth actively contemplating.  Science is not the pursuit of *my* truth or *your* truth or a *Western* truth or an *African* truth.  We are imperfect creatures in this pursuit, but our standard is *general, objective truth*, not subjective or socially constructed.  The simplest is that our work relies on trust, trust is built by openness, and openness means have an accessible record.
-
-The goal of scientific practice is to expand the usefully understood.  If some phenomena was not previously understood, then it is unlikely to be extremely obvious.
-
- - *Accountability*:  
- - *Explanations*
-
-## Experimental Apparatus
-
-## References
-
-[*Your Research Project: Designing and Planning Your Work* by Nicholas Walliman](https://www.nyu.edu/classes/bkg/methods/010072.pdf)
 
 Some references on software testing:
 
