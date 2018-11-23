@@ -48,11 +48,13 @@ As always: if you find an interesting / useful link or book, please feel free to
 
 ## Architecture
 
-With a starting set of requirements, you can record your idea for how information flows (and is transformed) from input(s) to output(s). You can write this flow down using something between prose (often called plain or natural language) and pseudocode, but the key here is communication: you are providing a document for other developers (including future you!), users (again, future you!), and scientists reviewing your work (still including future you!) to think about what your software does.  This high level description should be roughly consistent with what you might put in the main text of a scientific publication for a "Materials & Methods" section.
+With a starting set of requirements, you can record you design how information will flow (and is transformed) from input(s) to output(s). You can write this flow down using something between prose (often called plain or natural language) and pseudo-code, but the key here is communication: you are providing a document for other developers (including future you!), users (again, future you!), and scientists reviewing your work (still including future you!) to think about what your software does.  This high level description should be roughly consistent with what you might put in the main text of a scientific publication for a "Materials & Methods" section.
 
-Circling back to requirements, you should have a clear idea of which steps are associated with which requirements.  If there's a big imbalance in your requirements--most link to a single step, say, then perhaps you need to revisit your steps (though you may just have a high level of details in part of your requirements and a lot of work to do on the rest).  Alternatively, if a particular requirement is associated with too many steps, you probably don't have enough detail in the requirement or your steps aren't dividing up your problem cleanly.
+Circling back to requirements, you should have a clear idea which steps are associated with which needs.  If there's a big imbalance in your requirements--most link to a single step, say, then perhaps you need to revisit your steps (though you may just have a high level of details in part of your requirements and a lot of work to do on the rest).  Alternatively, if a particular requirement is associated with too many steps, you probably don't have enough detail in the requirement or your steps aren't dividing up your problem cleanly. This approach is more than just shuffling around words--taking this approach which help you size you code into intellectually and practically digestable chunks.
 
-Your architecture can be used as a skeleton for your project.  For example, if you identify seven high level steps, you can probably organize your code into seven high level pieces (e.g., seven scripts or folders collecting related scripts, or seven top level `make` targets). If you try to organize that way, and determine it makes more sense to have, say, four of those things (whatever the right instantiation is), then perhaps your high level process is only four steps.  These steps indicate minimal boundaries where you might want to test outputs, or store intermediate results.  They represent chunks that might be reusable (or largely replaceable with external libraries).  
+Your architecture can be used as a skeleton for your project.  For example, if you identify seven high level steps, you can probably organize your code into seven high level pieces (e.g., seven scripts or folders collecting related scripts, or seven top level `make` targets). If you try to organize that way, and determine it makes more sense to have, say, four of those things (whatever the right instantiation is), then perhaps your high level process is only four steps.  These steps indicate minimal boundaries where you might want to test outputs, or store intermediate results.  They represent chunks that might be reusable (or largely replaceable with external libraries).
+
+Finally, this approach to designing your project is iterative. Obviously, you can refine your high level steps, but also you can dig inside each step. While your initial steps correspond to high level processes, each refinement corresponds to lower level detail.  There should be at least a few passes at this refinement between the highest level description of your approach and the level which is quite nearly actual code.
 
 ### Architecture References
 
@@ -65,33 +67,15 @@ With a project design in mind, researchers can make a plan to accomplish that wo
 
 However, effective use of these advantages requires careful planning.  Software development companies will often adopt formal planning and tracking processes once they reach sufficient size and project complexity.  At SEAMS, we are not covering any of those formal processes directly, but rather focusing on the more fundamental concepts such approaches are intended to address.
 
+Part of planning is writing down requirements and architecture.  Next is ordering the implementation, scheduling, and if the work is collaborative, figuring out who is covering what part of the project.  When executing your design, plan to implement a piece at a time, and to use that piece to produce results.  That is, implement the smallest practical bit, verify the code behaves as you intend, and then move on to the next piece.  This process of isolation also creates an organization where multiple people can attend to different pieces.
 
-
-## Integrating Design and Planning
-
-As you work through your design, you may (accidentally) fix parts of your plan to accomplish the work.  E.g., if your design does not have reasonably separable pieces, you may not be able to have different people work on the project.  Or you may need to have final data before you can start work.  Or any other number of 
-
-# References
+# Other References
 
  - [Wikipedia: Software Design](https://en.wikipedia.org/wiki/Software_design); ignore the arcane vocabulary, and focus on the high level concepts 
-
-<!--
-
-Some references on software testing:
-
  - [An introduction to software testing](http://agile.csc.ncsu.edu/SEMaterials/BlackBox.pdf)
  - [A general guide to testing in Python](http://docs.python-guide.org/en/latest/writing/tests/)
  - [A guide to `unittest` (PyUnit)](http://www.drdobbs.com/testing/unit-testing-with-python/240165163)
  - [...and another](http://pythontesting.net/framework/unittest/unittest-introduction/)
- - Some tricks with PyCharm:
-   * [running and debugging](https://www.jetbrains.com/pycharm/help/running-and-debugging.html)
-   * [python debugger](https://www.jetbrains.com/pycharm/help/python-debugger.html)
-   * [pycharm debug console](https://www.jetbrains.com/pycharm/help/using-debug-console.html)
-   * [stepping through program](https://www.jetbrains.com/pycharm/help/stepping-through-the-program.html)
- - [Some tricks with Rstudio](https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-RStudio)
  - [using R package testthat](http://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf)
- - [thoughts on input validation](http://www.ibm.com/developerworks/library/l-sp2/)
  - [Tests for randomness](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.156.7149&rep=rep1&type=pdf)
  - [Thinking a bit about what testing means.](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html)
-
--->
