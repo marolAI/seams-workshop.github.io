@@ -1,7 +1,7 @@
 ---
 fullname: Andriamarolahy Rabetokotany
 goby: Marolahy
-img: marolahy.jpg
+img: Marolahy.jpg
 links:
   -
     title: LinkedIn profile
